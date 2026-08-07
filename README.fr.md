@@ -19,7 +19,7 @@
 
 ## 📌 Présentation
 
-Ce dépôt rassemble **50 compétences d'ingénierie IA (skills)** réparties sur **10 domaines clés**. Chaque fiche suit un format hybride : des recommandations d'architecture claires pour l'humain et des patterns directement exploitables par les assistants d'ingénierie et développeurs.
+Ce dépôt rassemble **75 compétences d'ingénierie IA (skills)** réparties sur **15 domaines clés**. Chaque fiche suit un format hybride : des recommandations d'architecture claires pour l'humain et des patterns directement exploitables par les assistants d'ingénierie et développeurs.
 
 Il fait le pont entre la théorie de l'IA et la réalité de la production en entreprise (économie des tokens, compromis de latence, gestion d'état, garde-fous de sécurité et intégration Spring AI).
 
@@ -38,7 +38,12 @@ ai-skills/
 ├── 07-vector-databases-and-embeddings/# Modèles d'embeddings, indexation HNSW, tuning PGVector & métriques de similitude
 ├── 08-ai-security-and-guardrails/     # Défense contre le prompt injection, masquage PII, prévention de fuite de secrets & rate limits
 ├── 09-evaluations-and-observability/  # Métriques RAGAS, LLM-as-a-judge, traçage OpenTelemetry & suivi de latence
-└── 10-coding-agents-and-workflow/     # Flux de travail des agents de code, conformité Git-human & refactoring
+├── 10-coding-agents-and-workflow/     # Flux de travail des agents de code, conformité Git-human & refactoring
+├── 11-custom-mcp-development/         # Création de serveurs MCP en Python/TS, providers de ressources et outils sur-mesure
+├── 12-low-code-ai-workflows/          # Workflows n8n, Flowise, Dify, orchestration visuelle d'agents et pipelines
+├── 13-ai-ux-and-frontend/             # Interfaces génératives, Claude artifacts, v0.dev, et UX orientée agent
+├── 14-multimedia-and-generation/      # Serveurs MCP Vidéo/Audio, automatisation PPTX, agents multimodaux Sora/Runway
+└── 15-frontier-models-and-trends/     # Comparatif OpenAI o1 vs Claude 3.5 vs Gemini 1.5 Pro, fenêtres de contexte géantes
 ```
 
 ---
@@ -57,6 +62,11 @@ ai-skills/
 | **08. AI Security** | Sécurité & Garde-Fous | Prompt injection indirect, assainissement de sortie, masquage PII, rate-limiting |
 | **09. Evals & Observabilité** | Qualité & Métriques | Fidélité & Pertinence des réponses (RAGAS), spans OpenTelemetry, latence TTFT |
 | **10. Coding Agents** | Productivité Développeur | Flux d'agents autonomes, hygiène des commits Git, génération de tests |
+| **11. Custom MCP** | Extension de Contexte | Création de serveur MCP Python/TS, APIs personnalisées, routage SSE/stdio |
+| **12. Low-Code AI** | Workflows Visuels | Orchestration n8n, pipelines Dify, logique de branchement |
+| **13. AI UX & Frontend** | Interfaces Génératives | Claude artifacts, UI v0.dev, rendu de composants en streaming |
+| **14. Multimedia AI** | Contenu Enrichi | Flux vidéo Sora, automatisation PPTX, synthèse audio |
+| **15. Frontier Models** | Évaluation Modèles | Raisonnement OpenAI o1 vs Claude 3.5 Sonnet vs Gemini 1.5 Pro |
 
 ---
 

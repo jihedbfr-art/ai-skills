@@ -19,7 +19,7 @@
 
 ## 📌 Overview
 
-This repository provides **50 actionable AI Engineering skills** organized into **10 core domains**. Each skill is written in a hybrid format: human-readable architectural guidance paired with machine-executable patterns for AI coding assistants and developers.
+This repository provides **75 actionable AI Engineering skills** organized into **15 core domains**. Each skill is written in a hybrid format: human-readable architectural guidance paired with machine-executable patterns for AI coding assistants and developers.
 
 It bridges the gap between theoretical AI concepts and enterprise production realities (token economics, latency tradeoffs, state management, security guardrails, and Spring AI integration).
 
@@ -38,7 +38,12 @@ ai-skills/
 ├── 07-vector-databases-and-embeddings/# Embedding models, HNSW indexing, PGVector tuning & similarity metrics
 ├── 08-ai-security-and-guardrails/     # Prompt injection defense, PII masking, secret leakage prevention & rate limits
 ├── 09-evaluations-and-observability/  # RAGAS metrics, LLM-as-a-judge, OpenTelemetry tracing & latency monitoring
-└── 10-coding-agents-and-workflow/     # Agentic coding workflows, Git-human compliance & refactoring templates
+├── 10-coding-agents-and-workflow/     # Agentic coding workflows, Git-human compliance & refactoring templates
+├── 11-custom-mcp-development/         # Custom MCP servers in Python/TS, resource providers, and custom tool building
+├── 12-low-code-ai-workflows/          # n8n, Flowise, Dify workflows, visual agent orchestration, and automated pipelines
+├── 13-ai-ux-and-frontend/             # Generative UI, Claude artifacts, v0.dev, and agent-oriented user experiences
+├── 14-multimedia-and-generation/      # Video/Audio generation MCPs, PPTX automation, Sora/Runway multimodal agents
+└── 15-frontier-models-and-trends/     # OpenAI o1 vs Claude 3.5 vs Gemini 1.5 Pro capabilities and giant context windows
 ```
 
 ---
@@ -57,6 +62,11 @@ ai-skills/
 | **08. AI Security** | Hardening & Guardrails | Indirect prompt injection, output sanitization, PII masking, token rate-limiting |
 | **09. Evals & Observability** | Quality & Metrics | Faithfulness & Answer Relevancy (RAGAS), OpenTelemetry spans, TTFT latency |
 | **10. Coding Agents** | Developer Productivity | Autonomous agent workflows, Git commit hygiene, automated test generation |
+| **11. Custom MCP** | Extending Context | Python/TS MCP server creation, custom tool APIs, SSE/stdio routing |
+| **12. Low-Code AI** | Visual Workflows | n8n agent orchestration, Dify pipelines, branching logic |
+| **13. AI UX & Frontend** | Generative Interfaces | Claude artifacts, v0.dev UI, streaming component rendering |
+| **14. Multimedia AI** | Rich Content | Sora video workflows, automated PPTX generation, audio synthesis |
+| **15. Frontier Models** | Model Evaluation | OpenAI o1 reasoning vs Claude 3.5 Sonnet vs Gemini 1.5 Pro |
 
 ---
 

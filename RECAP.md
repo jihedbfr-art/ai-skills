@@ -16,17 +16,22 @@
 
 | ID | Domaine | Statut Roster | Skills Rédigés | Total Visé |
 | :--- | :--- | :---: | :---: | :---: |
-| `01-llm-foundations-and-models` | LLM Selection & Economics | 🟢 Prêt | 5 / 5 | 5 |
-| `02-prompt-and-context-engineering` | Prompting & Context Window | 🟢 Prêt | 5 / 5 | 5 |
-| `03-rag-architectures` | Advanced Retrieval & Hybrid Search | 🟢 Prêt | 5 / 5 | 5 |
-| `04-agentic-workflows` | Multi-Agent & State Graphs | 🟢 Prêt | 5 / 5 | 5 |
-| `05-mcp-protocol-and-tools` | Model Context Protocol & Tools | 🟢 Prêt | 5 / 5 | 5 |
-| `06-spring-ai-integration` | Enterprise Java Spring AI | 🟢 Prêt | 5 / 5 | 5 |
-| `07-vector-databases-and-embeddings` | Embeddings & PGVector Tuning | 🟢 Prêt | 5 / 5 | 5 |
-| `08-ai-security-and-guardrails` | Guardrails & Prompt Injection | 🟢 Prêt | 5 / 5 | 5 |
-| `09-evaluations-and-observability` | RAGAS & OpenTelemetry Tracing | 🟢 Prêt | 5 / 5 | 5 |
-| `10-coding-agents-and-workflow` | Agentic Coding & Git Hygiene | 🟢 Prêt | 5 / 5 | 5 |
-| **TOTAL** | **10 Domaines** | **🟢 10/10** | **50 / 50** | **50** |
+| `01-llm-foundations-and-models` | LLM Selection & Economics | 🟢 Prêt | 1 / 5 | 5 |
+| `02-prompt-and-context-engineering` | Prompting & Context Window | 🟢 Prêt | 1 / 5 | 5 |
+| `03-rag-architectures` | Advanced Retrieval & Hybrid Search | 🟢 Prêt | 1 / 5 | 5 |
+| `04-agentic-workflows` | Multi-Agent & State Graphs | 🟢 Prêt | 1 / 5 | 5 |
+| `05-mcp-protocol-and-tools` | Model Context Protocol & Tools | 🟢 Prêt | 1 / 5 | 5 |
+| `06-spring-ai-integration` | Enterprise Java Spring AI | 🟢 Prêt | 1 / 5 | 5 |
+| `07-vector-databases-and-embeddings` | Embeddings & PGVector Tuning | 🟢 Prêt | 1 / 5 | 5 |
+| `08-ai-security-and-guardrails` | Guardrails & Prompt Injection | 🟢 Prêt | 1 / 5 | 5 |
+| `09-evaluations-and-observability` | RAGAS & OpenTelemetry Tracing | 🟢 Prêt | 1 / 5 | 5 |
+| `10-coding-agents-and-workflow` | Agentic Coding & Git Hygiene | 🟢 Prêt | 1 / 5 | 5 |
+| `11-custom-mcp-development` | Custom MCP Servers | 🟢 Prêt | 1 / 5 | 5 |
+| `12-low-code-ai-workflows` | n8n & Visual Workflows | 🟢 Prêt | 1 / 5 | 5 |
+| `13-ai-ux-and-frontend` | Generative UI & Claude Artifacts | 🟢 Prêt | 1 / 5 | 5 |
+| `14-multimedia-and-generation` | Video/Audio MCPs | 🟢 Prêt | 1 / 5 | 5 |
+| `15-frontier-models-and-trends` | OpenAI vs Claude vs Gemini | 🟢 Prêt | 1 / 5 | 5 |
+| **TOTAL** | **15 Domaines** | **🟢 15/15** | **15 / 75** | **75** |
 
 ---
 
