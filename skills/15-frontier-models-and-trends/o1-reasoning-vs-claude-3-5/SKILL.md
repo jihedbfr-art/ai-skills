@@ -1,17 +1,30 @@
 ---
-name: o1-reasoning-vs-claude-3-5
-description: Architectural comparison of Frontier Models (OpenAI o1 vs Claude 3.5 Sonnet vs Gemini 1.5 Pro) for specific enterprise engineering use cases.
-version: 1.0.0
+format: "v2"
+name: "o1-reasoning-vs-claude-3-5"
+title: "O1 Reasoning Vs Claude 3 5"
+title_fr: "O1 Reasoning Vs Claude 3 5"
+description: "Architectural comparison of Frontier Models (OpenAI o1 vs Claude 3.5 Sonnet vs Gemini 1.5 Pro) for specific enterprise engineering use cases."
+description_fr: "Skill d'ingénierie et de sécurité pour o1 reasoning vs claude 3 5."
+domain: "15-frontier-models-and-trends"
+tags: [cybersecurity, engineering, best-practices]
+maturity: "stable"
+audience: ["backend-engineer", "security-engineer", "coding-agent"]
+requires: ["bash", "git"]
+updated: "2026-08-08"
 ---
 
-# Frontier Models: Reasoning, Coding & Context
 
-## Architectural Purpose
+
+## Prerequisites
+- Target system, dependencies and environment configured.
+
+## Usage
+### Architectural Purpose
 Selecting the right Frontier Model determines the cost-efficiency and capability ceiling of an AI system. "One model fits all" is an anti-pattern. Different models possess asymmetric strengths in reasoning chains (System 2 thinking), agentic coding, and massive context windows.
 
 ---
 
-## 1. Capabilities Matrix
+### 1. Capabilities Matrix
 
 | Capability | Best-in-Class Model | Architectural Rationale |
 | :--- | :--- | :--- |
@@ -21,7 +34,7 @@ Selecting the right Frontier Model determines the cost-efficiency and capability
 
 ---
 
-## 2. Cost, Latency & Trade-offs
+### 2. Cost, Latency & Trade-offs
 - **Latency Penalty**: 
   - *Claude 3.5 Sonnet*: Extremely fast TTFT (< 500ms).
   - *OpenAI o1*: High latency (can take 10-30 seconds to "think" before emitting the first token). Unsuitable for real-time chatbots.
@@ -29,7 +42,13 @@ Selecting the right Frontier Model determines the cost-efficiency and capability
 
 ---
 
-## 3. Verification Checklist
+### 3. Verification Checklist
 - [ ] Model selection is mapped to the specific task (e.g., o1 for planning, Sonnet for execution).
 - [ ] Context windows are monitored (do not use a 2M token model if RAG can isolate the exact 5k tokens needed).
 - [ ] Fallback routing is implemented in case of provider rate limits or downtime.
+
+## Inputs
+- Relevant source code, logs, network traces, or system specifications.
+
+## Outputs
+- Analysis findings, security audit report, or generated code artifacts.
