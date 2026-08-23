@@ -1,17 +1,30 @@
 ---
-name: opentelemetry-llm-tracing-and-ttft
-description: Architectural pattern for monitoring AI agents using OpenTelemetry to track token usage, Time-To-First-Token (TTFT), and agent reasoning spans.
-version: 1.0.0
+format: "v2"
+name: "opentelemetry-llm-tracing-and-ttft"
+title: "Opentelemetry Llm Tracing And Ttft"
+title_fr: "Opentelemetry Llm Tracing And Ttft"
+description: "Architectural pattern for monitoring AI agents using OpenTelemetry to track token usage, Time-To-First-Token (TTFT), and agent reasoning spans."
+description_fr: "Skill d'ingénierie et de sécurité pour opentelemetry llm tracing and ttft."
+domain: "09-evaluations-and-observability"
+tags: [cybersecurity, engineering, best-practices]
+maturity: "stable"
+audience: ["backend-engineer", "security-engineer", "coding-agent"]
+requires: ["bash", "git"]
+updated: "2026-08-08"
 ---
 
-# OpenTelemetry Tracing for LLMs
 
-## Architectural Purpose
+
+## Prerequisites
+- Target system, dependencies and environment configured.
+
+## Usage
+### Architectural Purpose
 Standard APM (Application Performance Monitoring) tools fail to capture the nuances of Agentic workflows (tool call loops, token consumption per span, prompt compilation time). Utilizing OpenTelemetry (OTel) with LLM semantic conventions ensures full observability of AI pipelines in production.
 
 ---
 
-## 1. Core Pattern / Implementation
+### 1. Core Pattern / Implementation
 
 ### LLM Semantic Conventions
 When recording a span for an LLM call, attach specific OTel attributes:
@@ -55,14 +68,20 @@ public void callLlm(String prompt) {
 
 ---
 
-## 2. Cost, Latency & Trade-offs
+### 2. Cost, Latency & Trade-offs
 - **Token Math**: N/A for OTel directly, but capturing exact token usage enables precise cost-per-user billing.
 - **Latency Penalty**: Asynchronous OTel exporters add near-zero latency overhead to the hot path.
 - **Trade-off**: Storing raw prompt and completion text inside OTel spans (`llm.prompts`) can lead to massive storage bloat in tracing backends (Jaeger/Datadog) and potential data privacy leaks.
 
 ---
 
-## 3. Verification Checklist
+### 3. Verification Checklist
 - [ ] Raw prompt text and completions are excluded from trace attributes in production unless explicitly sanitized.
 - [ ] Both TTFT (Time-To-First-Token) and TBT (Time-Between-Tokens) are captured for streaming responses.
 - [ ] Tool execution spans are visually nested as children of the main Agent span in the tracing dashboard.
+
+## Inputs
+- Relevant source code, logs, network traces, or system specifications.
+
+## Outputs
+- Analysis findings, security audit report, or generated code artifacts.
