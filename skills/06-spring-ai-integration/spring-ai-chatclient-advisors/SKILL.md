@@ -1,17 +1,30 @@
 ---
-name: spring-ai-chatclient-advisors
-description: Enterprise Java patterns for Spring AI 1.0 using ChatClient fluent API, Advisors chain, and Spring Data PGVector.
-version: 1.0.0
+format: "v2"
+name: "spring-ai-chatclient-advisors"
+title: "Spring Ai Chatclient Advisors"
+title_fr: "Spring Ai Chatclient Advisors"
+description: "Enterprise Java patterns for Spring AI 1.0 using ChatClient fluent API, Advisors chain, and Spring Data PGVector."
+description_fr: "Skill d'ingénierie et de sécurité pour spring ai chatclient advisors."
+domain: "06-spring-ai-integration"
+tags: [cybersecurity, engineering, best-practices]
+maturity: "stable"
+audience: ["backend-engineer", "security-engineer", "coding-agent"]
+requires: ["bash", "git"]
+updated: "2026-08-08"
 ---
 
-# Spring AI ChatClient & Advisor Chain Pattern
 
-## Architectural Purpose
+
+## Prerequisites
+- Target system, dependencies and environment configured.
+
+## Usage
+### Architectural Purpose
 Spring AI provides a unified, enterprise-ready Java abstraction for interacting with AI models. The `ChatClient` fluent API paired with `Advisor` interceptors allows seamless context enhancement, chat memory management, and structured output parsing.
 
 ---
 
-## 1. Spring Boot 3 & Spring AI 1.0 Setup
+### 1. Spring Boot 3 & Spring AI 1.0 Setup
 
 ```xml
 <dependency>
@@ -28,7 +41,7 @@ Spring AI provides a unified, enterprise-ready Java abstraction for interacting 
 
 ---
 
-## 2. Fluent ChatClient Configuration
+### 2. Fluent ChatClient Configuration
 
 ```java
 @Service
@@ -58,8 +71,14 @@ public class CustomerSupportAiService {
 
 ---
 
-## 3. Production Advantages
+### 3. Production Advantages
 
 - **Clean Decoupling**: Provider-agnostic API. Switch between Anthropic, OpenAI, or Ollama without modifying application service logic.
 - **Interception Chain**: `Advisor` pipeline handles RAG insertion, chat memory persistence, and token logging automatically.
 - **Native Spring Integration**: Integrates directly with Spring Security, Spring Metrics, and Micrometer tracing.
+
+## Inputs
+- Relevant source code, logs, network traces, or system specifications.
+
+## Outputs
+- Analysis findings, security audit report, or generated code artifacts.
