@@ -1,17 +1,30 @@
 ---
-name: semantic-chunking-and-metadata-filtering
-description: Advanced RAG strategies using semantic document chunking and exact-match metadata filtering to improve retrieval precision.
-version: 1.0.0
+format: "v2"
+name: "semantic-chunking-and-metadata-filtering"
+title: "Semantic Chunking And Metadata Filtering"
+title_fr: "Semantic Chunking And Metadata Filtering"
+description: "Advanced RAG strategies using semantic document chunking and exact-match metadata filtering to improve retrieval precision."
+description_fr: "Skill d'ingénierie et de sécurité pour semantic chunking and metadata filtering."
+domain: "03-rag-architectures"
+tags: [cybersecurity, engineering, best-practices]
+maturity: "stable"
+audience: ["backend-engineer", "security-engineer", "coding-agent"]
+requires: ["bash", "git"]
+updated: "2026-08-08"
 ---
 
-# Semantic Chunking & Metadata Filtering
 
-## Architectural Purpose
+
+## Prerequisites
+- Target system, dependencies and environment configured.
+
+## Usage
+### Architectural Purpose
 Naive RAG chunks documents using fixed character counts (e.g., 1000 characters), which often slices sentences or code blocks in half, destroying context. Semantic chunking respects structural boundaries (paragraphs, markdown headers, JSON objects). Metadata filtering allows hard-filtering (e.g., `date > 2024`) before running expensive vector searches.
 
 ---
 
-## 1. Core Pattern / Implementation
+### 1. Core Pattern / Implementation
 
 ### Semantic Chunking (Markdown/HTML)
 Instead of arbitrary splits, chunk by HTML headers or Markdown hierarchy (`#`, `##`):
@@ -26,8 +39,6 @@ headers_to_split_on = [
 ]
 splitter = MarkdownHeaderTextSplitter(headers_to_split_on=headers_to_split_on)
 splits = splitter.split_text(markdown_document)
-# Each chunk retains its header hierarchy in metadata:
-# splits[0].metadata -> {"Header 1": "Chapter 1", "Header 2": "Section 1"}
 ```
 
 ### Pre-Filtering Vectors (PostgreSQL / PGVector)
@@ -44,14 +55,20 @@ LIMIT 5;
 
 ---
 
-## 2. Cost, Latency & Trade-offs
+### 2. Cost, Latency & Trade-offs
 - **Token Math**: Better chunking reduces the need to inject huge overlaps into the LLM context, saving input tokens.
 - **Latency Penalty**: Metadata filtering with standard B-Tree indexes on `tenant_id` massively speeds up PGVector queries by restricting the vector scan surface area.
 - **Trade-off**: Requires rigorous ingestion pipelines to accurately tag documents with metadata prior to embedding.
 
 ---
 
-## 3. Verification Checklist
+### 3. Verification Checklist
 - [ ] Multi-tenant RAG systems strictly enforce `tenant_id` filtering in the SQL WHERE clause to prevent cross-tenant data leakage.
 - [ ] Chunks have an overlap parameter (e.g., 100 tokens) to catch edge-case semantic bridges.
 - [ ] Code snippets are never split mid-block; use language-aware splitters for source code.
+
+## Inputs
+- Relevant source code, logs, network traces, or system specifications.
+
+## Outputs
+- Analysis findings, security audit report, or generated code artifacts.

@@ -1,17 +1,30 @@
 ---
-name: hybrid-search-bm25-vector-pgvector
-description: Design pattern for hybrid retrieval combining sparse keyword search (BM25/TSVector) and dense vector search with RRF scoring in PostgreSQL/PGVector.
-version: 1.0.0
+format: "v2"
+name: "hybrid-search-bm25-vector-pgvector"
+title: "Hybrid Search Bm25 Vector Pgvector"
+title_fr: "Hybrid Search Bm25 Vector Pgvector"
+description: "Design pattern for hybrid retrieval combining sparse keyword search (BM25/TSVector) and dense vector search with RRF scoring in PostgreSQL/PGVector."
+description_fr: "Skill d'ingénierie et de sécurité pour hybrid search bm25 vector pgvector."
+domain: "03-rag-architectures"
+tags: [cybersecurity, engineering, best-practices]
+maturity: "stable"
+audience: ["backend-engineer", "security-engineer", "coding-agent"]
+requires: ["bash", "git"]
+updated: "2026-08-08"
 ---
 
-# Hybrid Retrieval (BM25 + Vector) Pattern
 
-## Architectural Purpose
+
+## Prerequisites
+- Target system, dependencies and environment configured.
+
+## Usage
+### Architectural Purpose
 Pure dense vector search excels at semantic similarity but fails on exact keyword matches (part numbers, technical error codes, proper nouns). Hybrid search combines BM25 keyword matching with dense vector retrieval using Reciprocal Rank Fusion (RRF).
 
 ---
 
-## 1. Reciprocal Rank Fusion (RRF) Algorithm
+### 1. Reciprocal Rank Fusion (RRF) Algorithm
 
 $$\text{RRF Score}(d \in D) = \sum_{m \in M} \frac{1}{k + r_m(d)}$$
 
@@ -19,7 +32,7 @@ Where $k$ is a smoothing constant (typically $k=60$) and $r_m(d)$ is the rank of
 
 ---
 
-## 2. PostgreSQL / PGVector Implementation
+### 2. PostgreSQL / PGVector Implementation
 
 ```sql
 -- Combined TSVector (BM25 keyword) + HNSW Vector Search query in PGVector
@@ -45,8 +58,14 @@ LIMIT 10;
 
 ---
 
-## 3. Performance & Trade-offs
+### 3. Performance & Trade-offs
 
 - **Search Accuracy (Recall@10)**: +25% higher than vector-only or keyword-only.
 - **Latency Overhead**: ~10-15ms additional execution time in PostgreSQL.
 - **Storage Requirement**: Requires GIN index for `tsvector` + HNSW index for `vector`.
+
+## Inputs
+- Relevant source code, logs, network traces, or system specifications.
+
+## Outputs
+- Analysis findings, security audit report, or generated code artifacts.
