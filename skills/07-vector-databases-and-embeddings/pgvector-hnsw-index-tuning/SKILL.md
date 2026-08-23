@@ -1,17 +1,30 @@
 ---
-name: pgvector-hnsw-index-tuning
-description: Performance optimization and index tuning guidelines for PostgreSQL PGVector using HNSW indexes.
-version: 1.0.0
+format: "v2"
+name: "pgvector-hnsw-index-tuning"
+title: "Pgvector Hnsw Index Tuning"
+title_fr: "Pgvector Hnsw Index Tuning"
+description: "Performance optimization and index tuning guidelines for PostgreSQL PGVector using HNSW indexes."
+description_fr: "Skill d'ingénierie et de sécurité pour pgvector hnsw index tuning."
+domain: "07-vector-databases-and-embeddings"
+tags: [cybersecurity, engineering, best-practices]
+maturity: "stable"
+audience: ["backend-engineer", "security-engineer", "coding-agent"]
+requires: ["bash", "git"]
+updated: "2026-08-08"
 ---
 
-# PGVector HNSW Index Tuning & Performance Guide
 
-## Architectural Purpose
+
+## Prerequisites
+- Target system, dependencies and environment configured.
+
+## Usage
+### Architectural Purpose
 Without proper indexing, similarity search in PostgreSQL performs a sequential scan over all vector rows. Hierarchical Navigable Small World (HNSW) indexes provide sub-millisecond approximate nearest neighbor (ANN) search.
 
 ---
 
-## 1. HNSW Index Creation Syntax
+### 1. HNSW Index Creation Syntax
 
 ```sql
 -- Enable vector extension
@@ -34,7 +47,7 @@ WITH (m = 16, ef_construction = 64);
 
 ---
 
-## 2. Parameter Tuning Reference
+### 2. Parameter Tuning Reference
 
 | Parameter | Recommended Value | Impact |
 | :--- | :--- | :--- |
@@ -44,8 +57,14 @@ WITH (m = 16, ef_construction = 64);
 
 ---
 
-## 3. Distance Metrics Selection
+### 3. Distance Metrics Selection
 
 - **Cosine Distance (`vector_cosine_ops` / `<=>`)**: Best for text embeddings normalized to length 1.
 - **L2 / Euclidean (`vector_l2_ops` / `<->`)**: Use for non-normalized geometric vectors.
 - **Inner Product (`vector_ip_ops` / `<#>`)**: Fastest performance when vectors are pre-normalized.
+
+## Inputs
+- Relevant source code, logs, network traces, or system specifications.
+
+## Outputs
+- Analysis findings, security audit report, or generated code artifacts.
