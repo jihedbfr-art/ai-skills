@@ -2,9 +2,9 @@
 format: "v2"
 name: "prompt-structuring-and-xml-delimiters"
 title: "Prompt Structuring And Xml Delimiters"
-title_fr: "Prompt Structuring And Xml Delimiters"
+title_fr: "Prompt Structuring and XML Delimiters"
 description: "Production patterns for prompt engineering using XML tag boundaries, system instructions separation, and structured outputs."
-description_fr: "Skill d'ingénierie et de sécurité pour prompt structuring and xml delimiters."
+description_fr: "Patterns de production pour l'ingénierie de prompt : délimiteurs XML, séparation des instructions système et sorties structurées."
 domain: "02-prompt-and-context-engineering"
 tags: [cybersecurity, engineering, best-practices]
 maturity: "stable"

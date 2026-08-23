@@ -2,9 +2,9 @@
 format: "v2"
 name: "o1-reasoning-vs-claude-3-5"
 title: "O1 Reasoning Vs Claude 3 5"
-title_fr: "O1 Reasoning Vs Claude 3 5"
+title_fr: "o1 Reasoning vs Claude 3.5"
 description: "Architectural comparison of Frontier Models (OpenAI o1 vs Claude 3.5 Sonnet vs Gemini 1.5 Pro) for specific enterprise engineering use cases."
-description_fr: "Skill d'ingénierie et de sécurité pour o1 reasoning vs claude 3 5."
+description_fr: "Comparaison architecturale des modèles frontières (OpenAI o1 vs Claude 3.5 Sonnet vs Gemini 1.5 Pro) pour des cas d'usage d'ingénierie d'entreprise spécifiques."
 domain: "15-frontier-models-and-trends"
 tags: [cybersecurity, engineering, best-practices]
 maturity: "stable"

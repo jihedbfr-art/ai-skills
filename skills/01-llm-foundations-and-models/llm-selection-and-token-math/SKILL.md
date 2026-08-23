@@ -2,9 +2,9 @@
 format: "v2"
 name: "llm-selection-and-token-math"
 title: "Llm Selection And Token Math"
-title_fr: "Llm Selection And Token Math"
+title_fr: "LLM Selection and Token Math"
 description: "Architectural guidelines for LLM provider selection, context window decay management, tokenizer calculations, and pricing trade-offs."
-description_fr: "Skill d'ingénierie et de sécurité pour llm selection and token math."
+description_fr: "Directives architecturales pour le choix du fournisseur LLM, la gestion de la dégradation de la fenêtre de contexte, le calcul des tokens et les arbitrages de coût."
 domain: "01-llm-foundations-and-models"
 tags: [cybersecurity, engineering, best-practices]
 maturity: "stable"

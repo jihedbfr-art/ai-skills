@@ -2,9 +2,9 @@
 format: "v2"
 name: "state-graph-persistence-and-memory"
 title: "State Graph Persistence And Memory"
-title_fr: "State Graph Persistence And Memory"
+title_fr: "State Graph Persistence and Memory"
 description: "Architectural pattern for persisting multi-agent state graphs using checkpoints to enable time-travel debugging and human-in-the-loop approvals."
-description_fr: "Skill d'ingénierie et de sécurité pour state graph persistence and memory."
+description_fr: "Pattern architectural pour la persistance des graphes d'état multi-agents via checkpoints, permettant le débogage temporel et les validations humaines (human-in-the-loop)."
 domain: "04-agentic-workflows"
 tags: [cybersecurity, engineering, best-practices]
 maturity: "stable"

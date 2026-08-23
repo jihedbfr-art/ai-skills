@@ -2,9 +2,9 @@
 format: "v2"
 name: "mcp-python-server-fastapi"
 title: "Mcp Python Server Fastapi"
-title_fr: "Mcp Python Server Fastapi"
+title_fr: "MCP Python Server: FastAPI"
 description: "Architectural pattern for building custom Model Context Protocol (MCP) servers using Python, SSE transport, and FastAPI for enterprise integrations."
-description_fr: "Skill d'ingénierie et de sécurité pour mcp python server fastapi."
+description_fr: "Pattern architectural pour construire des serveurs MCP (Model Context Protocol) personnalisés en Python, avec transport SSE et FastAPI, pour des intégrations d'entreprise."
 domain: "11-custom-mcp-development"
 tags: [cybersecurity, engineering, best-practices]
 maturity: "stable"

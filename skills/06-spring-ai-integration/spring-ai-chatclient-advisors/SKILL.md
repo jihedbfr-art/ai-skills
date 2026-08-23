@@ -2,9 +2,9 @@
 format: "v2"
 name: "spring-ai-chatclient-advisors"
 title: "Spring Ai Chatclient Advisors"
-title_fr: "Spring Ai Chatclient Advisors"
+title_fr: "Spring AI ChatClient Advisors"
 description: "Enterprise Java patterns for Spring AI 1.0 using ChatClient fluent API, Advisors chain, and Spring Data PGVector."
-description_fr: "Skill d'ingénierie et de sécurité pour spring ai chatclient advisors."
+description_fr: "Patterns Java d'entreprise pour Spring AI 1.0 utilisant l'API fluide ChatClient, la chaîne d'Advisors et Spring Data PGVector."
 domain: "06-spring-ai-integration"
 tags: [cybersecurity, engineering, best-practices]
 maturity: "stable"

@@ -2,9 +2,9 @@
 format: "v2"
 name: "mcp-server-stdio-tool-schema"
 title: "Mcp Server Stdio Tool Schema"
-title_fr: "Mcp Server Stdio Tool Schema"
+title_fr: "MCP Server: stdio and Tool Schema"
 description: "Protocol specifications and implementation patterns for Model Context Protocol (MCP) servers using stdio transport and JSON-Schema tools."
-description_fr: "Skill d'ingénierie et de sécurité pour mcp server stdio tool schema."
+description_fr: "Spécifications du protocole et patterns d'implémentation pour les serveurs MCP (Model Context Protocol) utilisant le transport stdio et des outils décrits en JSON-Schema."
 domain: "05-mcp-protocol-and-tools"
 tags: [cybersecurity, engineering, best-practices]
 maturity: "stable"

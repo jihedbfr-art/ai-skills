@@ -2,9 +2,9 @@
 format: "v2"
 name: "automated-test-generation-with-agents"
 title: "Automated Test Generation With Agents"
-title_fr: "Automated Test Generation With Agents"
+title_fr: "Automated Test Generation with Agents"
 description: "Architectural workflow for utilizing AI coding agents to autonomously generate, execute, and fix JUnit/PyTest unit tests."
-description_fr: "Skill d'ingénierie et de sécurité pour automated test generation with agents."
+description_fr: "Workflow architectural pour utiliser des agents de codage IA afin de générer, exécuter et corriger de manière autonome des tests unitaires JUnit/PyTest."
 domain: "10-coding-agents-and-workflow"
 tags: [cybersecurity, engineering, best-practices]
 maturity: "stable"

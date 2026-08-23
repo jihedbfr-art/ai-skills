@@ -2,9 +2,9 @@
 format: "v2"
 name: "semantic-chunking-and-metadata-filtering"
 title: "Semantic Chunking And Metadata Filtering"
-title_fr: "Semantic Chunking And Metadata Filtering"
+title_fr: "Semantic Chunking and Metadata Filtering"
 description: "Advanced RAG strategies using semantic document chunking and exact-match metadata filtering to improve retrieval precision."
-description_fr: "Skill d'ingénierie et de sécurité pour semantic chunking and metadata filtering."
+description_fr: "Stratégies RAG avancées combinant chunking sémantique des documents et filtrage de métadonnées par correspondance exacte pour améliorer la précision de récupération."
 domain: "03-rag-architectures"
 tags: [cybersecurity, engineering, best-practices]
 maturity: "stable"

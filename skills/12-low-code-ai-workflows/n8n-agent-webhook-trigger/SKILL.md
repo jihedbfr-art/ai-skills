@@ -2,9 +2,9 @@
 format: "v2"
 name: "n8n-agent-webhook-trigger"
 title: "N8N Agent Webhook Trigger"
-title_fr: "N8n Agent Webhook Trigger"
+title_fr: "n8n Agent Webhook Trigger"
 description: "Architectural pattern for building webhook-triggered AI agents in n8n with dynamic memory and tool orchestration."
-description_fr: "Skill d'ingénierie et de sécurité pour n8n agent webhook trigger."
+description_fr: "Pattern architectural pour construire des agents IA déclenchés par webhook dans n8n, avec mémoire dynamique et orchestration d'outils."
 domain: "12-low-code-ai-workflows"
 tags: [cybersecurity, engineering, best-practices]
 maturity: "stable"

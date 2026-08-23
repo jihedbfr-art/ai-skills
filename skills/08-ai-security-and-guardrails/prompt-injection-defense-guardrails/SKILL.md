@@ -4,7 +4,7 @@ name: "prompt-injection-defense-guardrails"
 title: "Prompt Injection Defense Guardrails"
 title_fr: "Prompt Injection Defense Guardrails"
 description: "Security patterns for mitigating direct and indirect prompt injection attacks, enforcing input sanitization, and output schema guardrails."
-description_fr: "Skill d'ingénierie et de sécurité pour prompt injection defense guardrails."
+description_fr: "Patterns de sécurité pour atténuer les attaques par injection de prompt directes et indirectes, avec assainissement des entrées et garde-fous sur le schéma de sortie."
 domain: "08-ai-security-and-guardrails"
 tags: [cybersecurity, engineering, best-practices]
 maturity: "stable"

@@ -2,9 +2,9 @@
 format: "v2"
 name: "generative-ui-streaming-components"
 title: "Generative Ui Streaming Components"
-title_fr: "Generative Ui Streaming Components"
+title_fr: "Generative UI Streaming Components"
 description: "Architectural pattern for rendering dynamic, AI-generated UI components (Generative UI) to the client by streaming structural JSON and resolving components on the frontend."
-description_fr: "Skill d'ingénierie et de sécurité pour generative ui streaming components."
+description_fr: "Pattern architectural pour restituer côté client des composants d'interface générés par IA (Generative UI), en streamant du JSON structurel résolu en composants côté frontend."
 domain: "13-ai-ux-and-frontend"
 tags: [cybersecurity, engineering, best-practices]
 maturity: "stable"

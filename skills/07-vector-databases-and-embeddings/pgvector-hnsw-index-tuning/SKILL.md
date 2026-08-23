@@ -2,9 +2,9 @@
 format: "v2"
 name: "pgvector-hnsw-index-tuning"
 title: "Pgvector Hnsw Index Tuning"
-title_fr: "Pgvector Hnsw Index Tuning"
+title_fr: "pgvector HNSW Index Tuning"
 description: "Performance optimization and index tuning guidelines for PostgreSQL PGVector using HNSW indexes."
-description_fr: "Skill d'ingénierie et de sécurité pour pgvector hnsw index tuning."
+description_fr: "Directives d'optimisation des performances et de réglage des index pour PostgreSQL PGVector avec des index HNSW."
 domain: "07-vector-databases-and-embeddings"
 tags: [cybersecurity, engineering, best-practices]
 maturity: "stable"

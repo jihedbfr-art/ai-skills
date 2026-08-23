@@ -2,9 +2,9 @@
 format: "v2"
 name: "chain-of-thought-and-react-patterns"
 title: "Chain Of Thought And React Patterns"
-title_fr: "Chain Of Thought And React Patterns"
+title_fr: "Chain-of-Thought and ReAct Patterns"
 description: "Implementation guidelines for structural reasoning using Chain-of-Thought (CoT) and ReAct (Reasoning and Acting) prompting techniques."
-description_fr: "Skill d'ingénierie et de sécurité pour chain of thought and react patterns."
+description_fr: "Directives d'implémentation du raisonnement structuré avec les techniques de prompting Chain-of-Thought (CoT) et ReAct (Reasoning and Acting)."
 domain: "02-prompt-and-context-engineering"
 tags: [cybersecurity, engineering, best-practices]
 maturity: "stable"

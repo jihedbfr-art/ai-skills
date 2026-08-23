@@ -2,9 +2,9 @@
 format: "v2"
 name: "hybrid-search-bm25-vector-pgvector"
 title: "Hybrid Search Bm25 Vector Pgvector"
-title_fr: "Hybrid Search Bm25 Vector Pgvector"
+title_fr: "Hybrid Search: BM25 + Vector + pgvector"
 description: "Design pattern for hybrid retrieval combining sparse keyword search (BM25/TSVector) and dense vector search with RRF scoring in PostgreSQL/PGVector."
-description_fr: "Skill d'ingénierie et de sécurité pour hybrid search bm25 vector pgvector."
+description_fr: "Pattern de recherche hybride combinant recherche par mots-clés (BM25/TSVector) et recherche vectorielle dense, avec scoring RRF dans PostgreSQL/PGVector."
 domain: "03-rag-architectures"
 tags: [cybersecurity, engineering, best-practices]
 maturity: "stable"

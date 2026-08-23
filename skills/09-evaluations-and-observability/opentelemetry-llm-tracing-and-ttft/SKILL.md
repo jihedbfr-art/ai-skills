@@ -2,9 +2,9 @@
 format: "v2"
 name: "opentelemetry-llm-tracing-and-ttft"
 title: "Opentelemetry Llm Tracing And Ttft"
-title_fr: "Opentelemetry Llm Tracing And Ttft"
+title_fr: "OpenTelemetry LLM Tracing and TTFT"
 description: "Architectural pattern for monitoring AI agents using OpenTelemetry to track token usage, Time-To-First-Token (TTFT), and agent reasoning spans."
-description_fr: "Skill d'ingénierie et de sécurité pour opentelemetry llm tracing and ttft."
+description_fr: "Pattern architectural pour surveiller les agents IA avec OpenTelemetry : suivi de l'usage des tokens, du Time-To-First-Token (TTFT) et des spans de raisonnement des agents."
 domain: "09-evaluations-and-observability"
 tags: [cybersecurity, engineering, best-practices]
 maturity: "stable"

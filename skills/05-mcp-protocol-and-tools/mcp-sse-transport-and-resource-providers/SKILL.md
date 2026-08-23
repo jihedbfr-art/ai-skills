@@ -2,9 +2,9 @@
 format: "v2"
 name: "mcp-sse-transport-and-resource-providers"
 title: "Mcp Sse Transport And Resource Providers"
-title_fr: "Mcp Sse Transport And Resource Providers"
+title_fr: "MCP SSE Transport and Resource Providers"
 description: "Architectural pattern for exposing Model Context Protocol (MCP) servers over HTTP using Server-Sent Events (SSE) and implementing dynamic Resource Providers."
-description_fr: "Skill d'ingénierie et de sécurité pour mcp sse transport and resource providers."
+description_fr: "Pattern architectural pour exposer des serveurs MCP (Model Context Protocol) via HTTP avec Server-Sent Events (SSE) et implémenter des Resource Providers dynamiques."
 domain: "05-mcp-protocol-and-tools"
 tags: [cybersecurity, engineering, best-practices]
 maturity: "stable"

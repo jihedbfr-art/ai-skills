@@ -2,9 +2,9 @@
 format: "v2"
 name: "pii-masking-and-secret-scanner"
 title: "Pii Masking And Secret Scanner"
-title_fr: "Pii Masking And Secret Scanner"
+title_fr: "PII Masking and Secret Scanner"
 description: "Security pattern for intercepting and masking Personally Identifiable Information (PII) and credentials before sending prompts to external LLM APIs."
-description_fr: "Skill d'ingénierie et de sécurité pour pii masking and secret scanner."
+description_fr: "Pattern de sécurité pour intercepter et masquer les informations personnelles identifiables (PII) et les identifiants avant l'envoi des prompts aux API LLM externes."
 domain: "08-ai-security-and-guardrails"
 tags: [cybersecurity, engineering, best-practices]
 maturity: "stable"

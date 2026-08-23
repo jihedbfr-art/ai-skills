@@ -2,9 +2,9 @@
 format: "v2"
 name: "spring-ai-tool-calling-beans"
 title: "Spring Ai Tool Calling Beans"
-title_fr: "Spring Ai Tool Calling Beans"
+title_fr: "Spring AI Tool-Calling Beans"
 description: "Architectural pattern for registering Java methods as AI tools using Spring AI's @Bean and @Description annotations."
-description_fr: "Skill d'ingénierie et de sécurité pour spring ai tool calling beans."
+description_fr: "Pattern architectural pour enregistrer des méthodes Java comme outils IA via les annotations @Bean et @Description de Spring AI."
 domain: "06-spring-ai-integration"
 tags: [cybersecurity, engineering, best-practices]
 maturity: "stable"
