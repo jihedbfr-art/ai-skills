@@ -1,7 +1,7 @@
 ---
 format: "v2"
 name: "spring-ai-chatclient-advisors"
-title: "Spring Ai Chatclient Advisors"
+title: "Spring AI ChatClient Advisors"
 title_fr: "Spring AI ChatClient Advisors"
 description: "Enterprise Java patterns for Spring AI 1.0 using ChatClient fluent API, Advisors chain, and Spring Data PGVector."
 description_fr: "Patterns Java d'entreprise pour Spring AI 1.0 utilisant l'API fluide ChatClient, la chaîne d'Advisors et Spring Data PGVector."

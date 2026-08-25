@@ -1,7 +1,7 @@
 ---
 format: "v2"
 name: "mcp-sse-transport-and-resource-providers"
-title: "Mcp Sse Transport And Resource Providers"
+title: "MCP SSE Transport and Resource Providers"
 title_fr: "MCP SSE Transport and Resource Providers"
 description: "Architectural pattern for exposing Model Context Protocol (MCP) servers over HTTP using Server-Sent Events (SSE) and implementing dynamic Resource Providers."
 description_fr: "Pattern architectural pour exposer des serveurs MCP (Model Context Protocol) via HTTP avec Server-Sent Events (SSE) et implémenter des Resource Providers dynamiques."

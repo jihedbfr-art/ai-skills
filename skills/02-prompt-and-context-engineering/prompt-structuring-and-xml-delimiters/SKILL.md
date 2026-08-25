@@ -1,7 +1,7 @@
 ---
 format: "v2"
 name: "prompt-structuring-and-xml-delimiters"
-title: "Prompt Structuring And Xml Delimiters"
+title: "Prompt Structuring and XML Delimiters"
 title_fr: "Prompt Structuring and XML Delimiters"
 description: "Production patterns for prompt engineering using XML tag boundaries, system instructions separation, and structured outputs."
 description_fr: "Patterns de production pour l'ingénierie de prompt : délimiteurs XML, séparation des instructions système et sorties structurées."

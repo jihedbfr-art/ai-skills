@@ -1,7 +1,7 @@
 ---
 format: "v2"
 name: "spring-ai-tool-calling-beans"
-title: "Spring Ai Tool Calling Beans"
+title: "Spring AI Tool-Calling Beans"
 title_fr: "Spring AI Tool-Calling Beans"
 description: "Architectural pattern for registering Java methods as AI tools using Spring AI's @Bean and @Description annotations."
 description_fr: "Pattern architectural pour enregistrer des méthodes Java comme outils IA via les annotations @Bean et @Description de Spring AI."

@@ -1,7 +1,7 @@
 ---
 format: "v2"
 name: "mcp-server-stdio-tool-schema"
-title: "Mcp Server Stdio Tool Schema"
+title: "MCP Server: stdio and Tool Schema"
 title_fr: "MCP Server: stdio and Tool Schema"
 description: "Protocol specifications and implementation patterns for Model Context Protocol (MCP) servers using stdio transport and JSON-Schema tools."
 description_fr: "Spécifications du protocole et patterns d'implémentation pour les serveurs MCP (Model Context Protocol) utilisant le transport stdio et des outils décrits en JSON-Schema."

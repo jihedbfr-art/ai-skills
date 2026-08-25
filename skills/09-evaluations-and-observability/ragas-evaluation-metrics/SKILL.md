@@ -1,7 +1,7 @@
 ---
 format: "v2"
 name: "ragas-evaluation-metrics"
-title: "Ragas Evaluation Metrics"
+title: "RAGAS Evaluation Metrics"
 title_fr: "RAGAS Evaluation Metrics"
 description: "Quantitative evaluation framework for RAG systems using Faithfulness, Answer Relevancy, and Context Precision metrics."
 description_fr: "Cadre d'évaluation quantitative pour les systèmes RAG basé sur les métriques Faithfulness, Answer Relevancy et Context Precision."

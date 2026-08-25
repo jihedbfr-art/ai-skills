@@ -1,7 +1,7 @@
 ---
 format: "v2"
 name: "embedding-model-selection-and-dimensions"
-title: "Embedding Model Selection And Dimensions"
+title: "Embedding Model Selection and Dimensions"
 title_fr: "Embedding Model Selection and Dimensions"
 description: "Architectural guidelines for selecting embedding models based on vector dimensionality, multilingual support, and storage constraints."
 description_fr: "Directives architecturales pour choisir un modèle d'embedding selon la dimensionnalité vectorielle, le support multilingue et les contraintes de stockage."

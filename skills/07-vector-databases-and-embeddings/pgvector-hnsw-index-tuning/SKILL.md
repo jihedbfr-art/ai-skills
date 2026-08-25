@@ -1,7 +1,7 @@
 ---
 format: "v2"
 name: "pgvector-hnsw-index-tuning"
-title: "Pgvector Hnsw Index Tuning"
+title: "pgvector HNSW Index Tuning"
 title_fr: "pgvector HNSW Index Tuning"
 description: "Performance optimization and index tuning guidelines for PostgreSQL PGVector using HNSW indexes."
 description_fr: "Directives d'optimisation des performances et de réglage des index pour PostgreSQL PGVector avec des index HNSW."
