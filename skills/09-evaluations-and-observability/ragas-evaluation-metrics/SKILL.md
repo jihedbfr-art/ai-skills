@@ -1,17 +1,30 @@
 ---
-name: ragas-evaluation-metrics
-description: Quantitative evaluation framework for RAG systems using Faithfulness, Answer Relevancy, and Context Precision metrics.
-version: 1.0.0
+format: "v2"
+name: "ragas-evaluation-metrics"
+title: "Ragas Evaluation Metrics"
+title_fr: "RAGAS Evaluation Metrics"
+description: "Quantitative evaluation framework for RAG systems using Faithfulness, Answer Relevancy, and Context Precision metrics."
+description_fr: "Cadre d'évaluation quantitative pour les systèmes RAG basé sur les métriques Faithfulness, Answer Relevancy et Context Precision."
+domain: "09-evaluations-and-observability"
+tags: [cybersecurity, engineering, best-practices]
+maturity: "stable"
+audience: ["backend-engineer", "security-engineer", "coding-agent"]
+requires: ["bash", "git"]
+updated: "2026-08-08"
 ---
 
-# RAGAS Evaluation Metrics & Benchmarking
 
-## Architectural Purpose
+
+## Prerequisites
+- Target system, dependencies and environment configured.
+
+## Usage
+### Architectural Purpose
 Evaluating RAG systems using subjective human inspection is non-scalable and prone to bias. The RAGAS framework provides continuous automated scoring of RAG pipelines across 4 core dimensions.
 
 ---
 
-## 1. The RAG Triad Metrics
+### 1. The RAG Triad Metrics
 
 ```text
                +-------------------+
@@ -39,7 +52,7 @@ Measures how directly the generated answer addresses the user's initial question
 
 ---
 
-## 2. Python RAGAS Execution Example
+### 2. Python RAGAS Execution Example
 
 ```python
 from ragas import evaluate
@@ -57,3 +70,9 @@ dataset = Dataset.from_dict(data_sample)
 score = evaluate(dataset, metrics=[faithfulness, answer_relevancy, context_precision, context_recall])
 print(score)
 ```
+
+## Inputs
+- Relevant source code, logs, network traces, or system specifications.
+
+## Outputs
+- Analysis findings, security audit report, or generated code artifacts.

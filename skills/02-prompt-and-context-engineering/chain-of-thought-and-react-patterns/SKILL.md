@@ -1,17 +1,30 @@
 ---
-name: chain-of-thought-and-react-patterns
-description: Implementation guidelines for structural reasoning using Chain-of-Thought (CoT) and ReAct (Reasoning and Acting) prompting techniques.
-version: 1.0.0
+format: "v2"
+name: "chain-of-thought-and-react-patterns"
+title: "Chain Of Thought And React Patterns"
+title_fr: "Chain-of-Thought and ReAct Patterns"
+description: "Implementation guidelines for structural reasoning using Chain-of-Thought (CoT) and ReAct (Reasoning and Acting) prompting techniques."
+description_fr: "Directives d'implémentation du raisonnement structuré avec les techniques de prompting Chain-of-Thought (CoT) et ReAct (Reasoning and Acting)."
+domain: "02-prompt-and-context-engineering"
+tags: [cybersecurity, engineering, best-practices]
+maturity: "stable"
+audience: ["backend-engineer", "security-engineer", "coding-agent"]
+requires: ["bash", "git"]
+updated: "2026-08-08"
 ---
 
-# Chain-of-Thought & ReAct Prompting
 
-## Architectural Purpose
+
+## Prerequisites
+- Target system, dependencies and environment configured.
+
+## Usage
+### Architectural Purpose
 Zero-shot prompting often fails on complex reasoning tasks because the LLM lacks a "scratchpad" to work out intermediate steps. Forcing the model to emit a reasoning chain before outputting the final answer significantly improves accuracy in math, logic, and multi-step tool orchestration.
 
 ---
 
-## 1. Core Pattern / Implementation
+### 1. Core Pattern / Implementation
 
 ### Zero-Shot CoT
 Simply appending `"Let's think step by step"` or enforcing XML thought blocks:
@@ -39,14 +52,20 @@ Final Answer: I have successfully processed your refund of $100.00.
 
 ---
 
-## 2. Cost, Latency & Trade-offs
+### 2. Cost, Latency & Trade-offs
 - **Token Math**: CoT heavily inflates output token consumption. A 50-token answer might require 300 tokens of intermediate reasoning.
 - **Latency Penalty**: TTFT (Time-To-First-Token) for the final answer is delayed because the model must stream the entire `<thought>` block first.
 - **Trade-off**: Do not use CoT for simple extraction or classification tasks where low latency is critical. Reserve it for complex routing or math.
 
 ---
 
-## 3. Verification Checklist
+### 3. Verification Checklist
 - [ ] UI frontend strips out `<thought>` blocks so the end-user only sees the final `<answer>`.
 - [ ] System prompt strictly enforces the structure to prevent the model from leaking thoughts into the final answer.
 - [ ] ReAct agents have a strict `max_iterations` limit to prevent infinite Action/Observation loops.
+
+## Inputs
+- Relevant source code, logs, network traces, or system specifications.
+
+## Outputs
+- Analysis findings, security audit report, or generated code artifacts.

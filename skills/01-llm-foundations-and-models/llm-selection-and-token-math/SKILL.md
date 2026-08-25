@@ -1,17 +1,30 @@
 ---
-name: llm-selection-and-token-math
-description: Architectural guidelines for LLM provider selection, context window decay management, tokenizer calculations, and pricing trade-offs.
-version: 1.0.0
+format: "v2"
+name: "llm-selection-and-token-math"
+title: "Llm Selection And Token Math"
+title_fr: "LLM Selection and Token Math"
+description: "Architectural guidelines for LLM provider selection, context window decay management, tokenizer calculations, and pricing trade-offs."
+description_fr: "Directives architecturales pour le choix du fournisseur LLM, la gestion de la dégradation de la fenêtre de contexte, le calcul des tokens et les arbitrages de coût."
+domain: "01-llm-foundations-and-models"
+tags: [cybersecurity, engineering, best-practices]
+maturity: "stable"
+audience: ["backend-engineer", "security-engineer", "coding-agent"]
+requires: ["bash", "git"]
+updated: "2026-08-08"
 ---
 
-# LLM Selection & Token Economics Guide
 
-## Architectural Context
+
+## Prerequisites
+- Target system, dependencies and environment configured.
+
+## Usage
+### Architectural Context
 Selecting the right Large Language Model (LLM) for enterprise workloads requires balancing reasoning capability, context window retention, Time-To-First-Token (TTFT), and operational costs. 
 
 ---
 
-## 1. Token Ratio & Estimation Rules
+### 1. Token Ratio & Estimation Rules
 
 ### Standard Character-to-Token Ratios
 - **English Prose**: ~1 token = 4 characters (0.75 words per token).
@@ -23,7 +36,7 @@ $$\text{Cost} = \left(\frac{\text{Input Tokens}}{1,000,000} \times \text{Input P
 
 ---
 
-## 2. Context Window Decay Mitigation
+### 2. Context Window Decay Mitigation
 
 As context length grows beyond 32k tokens, LLM recall efficiency exhibits a U-shaped accuracy curve ("Lost in the Middle").
 
@@ -34,7 +47,7 @@ As context length grows beyond 32k tokens, LLM recall efficiency exhibits a U-sh
 
 ---
 
-## 3. Cost & Latency Benchmark Matrix
+### 3. Cost & Latency Benchmark Matrix
 
 | Model Tier | Typical TTFT | Latency (TBT) | Relative Cost | Primary Use Case |
 | :--- | :--- | :--- | :--- | :--- |
@@ -44,8 +57,14 @@ As context length grows beyond 32k tokens, LLM recall efficiency exhibits a U-sh
 
 ---
 
-## 4. Verification Checklist
+### 4. Verification Checklist
 
 - [ ] System prompt places critical constraints in top 10% of total token budget.
 - [ ] Output token limits (`max_tokens`) are explicitly set to prevent infinite generation loops.
 - [ ] Context size monitored to trigger auto-truncation before hitting provider HTTP 400 bounds.
+
+## Inputs
+- Relevant source code, logs, network traces, or system specifications.
+
+## Outputs
+- Analysis findings, security audit report, or generated code artifacts.
