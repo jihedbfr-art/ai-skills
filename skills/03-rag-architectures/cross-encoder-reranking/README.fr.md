@@ -1,13 +1,9 @@
 <!-- GENERATED — do not edit -->
-<div align="center">
-  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
-</div>
-
 # Reranking par Cross-Encoder
 
 <div align="center">
 
-**Un projet <a href="https://github.com/jihedbfr-art">JihedAiLabs</a>** — Ajouter une seconde passe de cross-encoder après la recherche vectorielle/hybride pour re-noter les candidats conjointement avec la requête, corrigeant le biais recall-sur-precision de la recherche par embeddings.
+Ajouter une seconde passe de cross-encoder après la recherche vectorielle/hybride pour re-noter les candidats conjointement avec la requête, corrigeant le biais recall-sur-precision de la recherche par embeddings.
 
 <a href="./README.md">English version</a>
 
@@ -27,3 +23,11 @@ Ajouter une seconde passe de cross-encoder après la recherche vectorielle/hybri
 
 ## Instructions Agent
 Le fichier canonique consommable par un agent IA (`Claude Code`, `Antigravity`, `Cursor`) est disponible dans [SKILL.md](./SKILL.md).
+
+---
+
+<div align="center">
+  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
+  <br/>
+  <sub>Un projet <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a></sub>
+</div>

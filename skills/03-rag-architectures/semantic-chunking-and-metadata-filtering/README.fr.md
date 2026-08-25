@@ -1,13 +1,9 @@
 <!-- GENERATED — do not edit -->
-<div align="center">
-  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
-</div>
-
 # Semantic Chunking and Metadata Filtering
 
 <div align="center">
 
-**Un projet <a href="https://github.com/jihedbfr-art">JihedAiLabs</a>** — Stratégies RAG avancées combinant chunking sémantique des documents et filtrage de métadonnées par correspondance exacte pour améliorer la précision de récupération.
+Stratégies RAG avancées combinant chunking sémantique des documents et filtrage de métadonnées par correspondance exacte pour améliorer la précision de récupération.
 
 <a href="./README.md">English version</a>
 
@@ -27,3 +23,11 @@ Stratégies RAG avancées combinant chunking sémantique des documents et filtra
 
 ## Instructions Agent
 Le fichier canonique consommable par un agent IA (`Claude Code`, `Antigravity`, `Cursor`) est disponible dans [SKILL.md](./SKILL.md).
+
+---
+
+<div align="center">
+  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
+  <br/>
+  <sub>Un projet <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a></sub>
+</div>

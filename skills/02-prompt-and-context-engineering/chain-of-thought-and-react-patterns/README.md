@@ -1,13 +1,9 @@
 <!-- GENERATED — do not edit -->
-<div align="center">
-  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
-</div>
-
 # Chain-of-Thought and ReAct Patterns
 
 <div align="center">
 
-**A <a href="https://github.com/jihedbfr-art">JihedAiLabs</a> project** — Implementation guidelines for structural reasoning using Chain-of-Thought (CoT) and ReAct (Reasoning and Acting) prompting techniques.
+Implementation guidelines for structural reasoning using Chain-of-Thought (CoT) and ReAct (Reasoning and Acting) prompting techniques.
 
 <a href="./README.fr.md">Version française</a>
 
@@ -27,3 +23,11 @@ Implementation guidelines for structural reasoning using Chain-of-Thought (CoT) 
 
 ## Agent Instructions
 The canonical agent-executable specification is available in [SKILL.md](./SKILL.md).
+
+---
+
+<div align="center">
+  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
+  <br/>
+  <sub>A <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a> project</sub>
+</div>

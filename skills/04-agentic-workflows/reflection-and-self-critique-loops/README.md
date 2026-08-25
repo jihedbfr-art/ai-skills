@@ -1,13 +1,9 @@
 <!-- GENERATED — do not edit -->
-<div align="center">
-  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
-</div>
-
 # Reflection And Self Critique Loops
 
 <div align="center">
 
-**A <a href="https://github.com/jihedbfr-art">JihedAiLabs</a> project** — Agent pattern where a generator LLM output is critiqued by a second pass (self or separate model) before being accepted, trading latency and tokens for correctness.
+Agent pattern where a generator LLM output is critiqued by a second pass (self or separate model) before being accepted, trading latency and tokens for correctness.
 
 <a href="./README.fr.md">Version française</a>
 
@@ -27,3 +23,11 @@ Agent pattern where a generator LLM output is critiqued by a second pass (self o
 
 ## Agent Instructions
 The canonical agent-executable specification is available in [SKILL.md](./SKILL.md).
+
+---
+
+<div align="center">
+  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
+  <br/>
+  <sub>A <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a> project</sub>
+</div>

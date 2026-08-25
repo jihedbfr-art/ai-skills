@@ -1,13 +1,9 @@
 <!-- GENERATED — do not edit -->
-<div align="center">
-  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
-</div>
-
 # OpenTelemetry LLM Tracing and TTFT
 
 <div align="center">
 
-**A <a href="https://github.com/jihedbfr-art">JihedAiLabs</a> project** — Architectural pattern for monitoring AI agents using OpenTelemetry to track token usage, Time-To-First-Token (TTFT), and agent reasoning spans.
+Architectural pattern for monitoring AI agents using OpenTelemetry to track token usage, Time-To-First-Token (TTFT), and agent reasoning spans.
 
 <a href="./README.fr.md">Version française</a>
 
@@ -27,3 +23,11 @@ Architectural pattern for monitoring AI agents using OpenTelemetry to track toke
 
 ## Agent Instructions
 The canonical agent-executable specification is available in [SKILL.md](./SKILL.md).
+
+---
+
+<div align="center">
+  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
+  <br/>
+  <sub>A <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a> project</sub>
+</div>

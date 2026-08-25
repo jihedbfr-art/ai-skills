@@ -1,13 +1,9 @@
 <!-- GENERATED — do not edit -->
-<div align="center">
-  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
-</div>
-
 # Quantization: GGUF and AWQ Tuning
 
 <div align="center">
 
-**Un projet <a href="https://github.com/jihedbfr-art">JihedAiLabs</a>** — Directives architecturales pour l'exécution de LLM en local avec les formats de quantization GGUF et AWQ, afin d'équilibrer l'usage VRAM et la précision du modèle.
+Directives architecturales pour l'exécution de LLM en local avec les formats de quantization GGUF et AWQ, afin d'équilibrer l'usage VRAM et la précision du modèle.
 
 <a href="./README.md">English version</a>
 
@@ -27,3 +23,11 @@ Directives architecturales pour l'exécution de LLM en local avec les formats de
 
 ## Instructions Agent
 Le fichier canonique consommable par un agent IA (`Claude Code`, `Antigravity`, `Cursor`) est disponible dans [SKILL.md](./SKILL.md).
+
+---
+
+<div align="center">
+  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
+  <br/>
+  <sub>Un projet <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a></sub>
+</div>

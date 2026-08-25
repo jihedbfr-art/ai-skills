@@ -1,13 +1,9 @@
 <!-- GENERATED — do not edit -->
-<div align="center">
-  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
-</div>
-
 # MCP Server: stdio and Tool Schema
 
 <div align="center">
 
-**A <a href="https://github.com/jihedbfr-art">JihedAiLabs</a> project** — Protocol specifications and implementation patterns for Model Context Protocol (MCP) servers using stdio transport and JSON-Schema tools.
+Protocol specifications and implementation patterns for Model Context Protocol (MCP) servers using stdio transport and JSON-Schema tools.
 
 <a href="./README.fr.md">Version française</a>
 
@@ -27,3 +23,11 @@ Protocol specifications and implementation patterns for Model Context Protocol (
 
 ## Agent Instructions
 The canonical agent-executable specification is available in [SKILL.md](./SKILL.md).
+
+---
+
+<div align="center">
+  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
+  <br/>
+  <sub>A <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a> project</sub>
+</div>
