@@ -1,13 +1,9 @@
 <!-- GENERATED — do not edit -->
-<div align="center">
-  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
-</div>
-
 # MCP SSE Transport and Resource Providers
 
 <div align="center">
 
-**A <a href="https://github.com/jihedbfr-art">JihedAiLabs</a> project** — Architectural pattern for exposing Model Context Protocol (MCP) servers over HTTP using Server-Sent Events (SSE) and implementing dynamic Resource Providers.
+Architectural pattern for exposing Model Context Protocol (MCP) servers over HTTP using Server-Sent Events (SSE) and implementing dynamic Resource Providers.
 
 <a href="./README.fr.md">Version française</a>
 
@@ -27,3 +23,11 @@ Architectural pattern for exposing Model Context Protocol (MCP) servers over HTT
 
 ## Agent Instructions
 The canonical agent-executable specification is available in [SKILL.md](./SKILL.md).
+
+---
+
+<div align="center">
+  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
+  <br/>
+  <sub>A <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a> project</sub>
+</div>

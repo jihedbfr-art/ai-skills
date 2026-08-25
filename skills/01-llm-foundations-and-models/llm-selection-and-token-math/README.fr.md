@@ -1,13 +1,9 @@
 <!-- GENERATED — do not edit -->
-<div align="center">
-  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
-</div>
-
 # LLM Selection and Token Math
 
 <div align="center">
 
-**Un projet <a href="https://github.com/jihedbfr-art">JihedAiLabs</a>** — Directives architecturales pour le choix du fournisseur LLM, la gestion de la dégradation de la fenêtre de contexte, le calcul des tokens et les arbitrages de coût.
+Directives architecturales pour le choix du fournisseur LLM, la gestion de la dégradation de la fenêtre de contexte, le calcul des tokens et les arbitrages de coût.
 
 <a href="./README.md">English version</a>
 
@@ -27,3 +23,11 @@ Directives architecturales pour le choix du fournisseur LLM, la gestion de la d�
 
 ## Instructions Agent
 Le fichier canonique consommable par un agent IA (`Claude Code`, `Antigravity`, `Cursor`) est disponible dans [SKILL.md](./SKILL.md).
+
+---
+
+<div align="center">
+  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
+  <br/>
+  <sub>Un projet <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a></sub>
+</div>

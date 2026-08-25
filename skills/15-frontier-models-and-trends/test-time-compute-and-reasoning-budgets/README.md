@@ -1,13 +1,9 @@
 <!-- GENERATED — do not edit -->
-<div align="center">
-  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
-</div>
-
 # Test Time Compute And Reasoning Budgets
 
 <div align="center">
 
-**A <a href="https://github.com/jihedbfr-art">JihedAiLabs</a> project** — Tuning how much inference-time reasoning a model spends per request (extended thinking / reasoning tokens) as a deliberate cost-quality dial instead of a fixed default.
+Tuning how much inference-time reasoning a model spends per request (extended thinking / reasoning tokens) as a deliberate cost-quality dial instead of a fixed default.
 
 <a href="./README.fr.md">Version française</a>
 
@@ -27,3 +23,11 @@ Tuning how much inference-time reasoning a model spends per request (extended th
 
 ## Agent Instructions
 The canonical agent-executable specification is available in [SKILL.md](./SKILL.md).
+
+---
+
+<div align="center">
+  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
+  <br/>
+  <sub>A <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a> project</sub>
+</div>

@@ -1,13 +1,9 @@
 <!-- GENERATED — do not edit -->
-<div align="center">
-  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
-</div>
-
 # Hybrid Search: BM25 + Vector + pgvector
 
 <div align="center">
 
-**A <a href="https://github.com/jihedbfr-art">JihedAiLabs</a> project** — Design pattern for hybrid retrieval combining sparse keyword search (BM25/TSVector) and dense vector search with RRF scoring in PostgreSQL/PGVector.
+Design pattern for hybrid retrieval combining sparse keyword search (BM25/TSVector) and dense vector search with RRF scoring in PostgreSQL/PGVector.
 
 <a href="./README.fr.md">Version française</a>
 
@@ -27,3 +23,11 @@ Design pattern for hybrid retrieval combining sparse keyword search (BM25/TSVect
 
 ## Agent Instructions
 The canonical agent-executable specification is available in [SKILL.md](./SKILL.md).
+
+---
+
+<div align="center">
+  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
+  <br/>
+  <sub>A <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a> project</sub>
+</div>

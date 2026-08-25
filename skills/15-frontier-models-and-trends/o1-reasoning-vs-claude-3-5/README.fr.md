@@ -1,13 +1,9 @@
 <!-- GENERATED — do not edit -->
-<div align="center">
-  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
-</div>
-
 # Raisonnement o1 vs Claude 3.5
 
 <div align="center">
 
-**Un projet <a href="https://github.com/jihedbfr-art">JihedAiLabs</a>** — Comparaison architecturale des modèles frontières (OpenAI o1 vs Claude 3.5 Sonnet vs Gemini 1.5 Pro) pour des cas d'usage d'ingénierie d'entreprise spécifiques.
+Comparaison architecturale des modèles frontières (OpenAI o1 vs Claude 3.5 Sonnet vs Gemini 1.5 Pro) pour des cas d'usage d'ingénierie d'entreprise spécifiques.
 
 <a href="./README.md">English version</a>
 
@@ -27,3 +23,11 @@ Comparaison architecturale des modèles frontières (OpenAI o1 vs Claude 3.5 Son
 
 ## Instructions Agent
 Le fichier canonique consommable par un agent IA (`Claude Code`, `Antigravity`, `Cursor`) est disponible dans [SKILL.md](./SKILL.md).
+
+---
+
+<div align="center">
+  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
+  <br/>
+  <sub>Un projet <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a></sub>
+</div>

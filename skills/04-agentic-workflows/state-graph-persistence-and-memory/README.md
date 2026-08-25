@@ -1,13 +1,9 @@
 <!-- GENERATED — do not edit -->
-<div align="center">
-  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
-</div>
-
 # State Graph Persistence and Memory
 
 <div align="center">
 
-**A <a href="https://github.com/jihedbfr-art">JihedAiLabs</a> project** — Architectural pattern for persisting multi-agent state graphs using checkpoints to enable time-travel debugging and human-in-the-loop approvals.
+Architectural pattern for persisting multi-agent state graphs using checkpoints to enable time-travel debugging and human-in-the-loop approvals.
 
 <a href="./README.fr.md">Version française</a>
 
@@ -27,3 +23,11 @@ Architectural pattern for persisting multi-agent state graphs using checkpoints 
 
 ## Agent Instructions
 The canonical agent-executable specification is available in [SKILL.md](./SKILL.md).
+
+---
+
+<div align="center">
+  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
+  <br/>
+  <sub>A <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a> project</sub>
+</div>

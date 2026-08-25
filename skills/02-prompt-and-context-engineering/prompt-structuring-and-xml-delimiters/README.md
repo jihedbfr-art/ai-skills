@@ -1,13 +1,9 @@
 <!-- GENERATED — do not edit -->
-<div align="center">
-  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
-</div>
-
 # Prompt Structuring and XML Delimiters
 
 <div align="center">
 
-**A <a href="https://github.com/jihedbfr-art">JihedAiLabs</a> project** — Production patterns for prompt engineering using XML tag boundaries, system instructions separation, and structured outputs.
+Production patterns for prompt engineering using XML tag boundaries, system instructions separation, and structured outputs.
 
 <a href="./README.fr.md">Version française</a>
 
@@ -27,3 +23,11 @@ Production patterns for prompt engineering using XML tag boundaries, system inst
 
 ## Agent Instructions
 The canonical agent-executable specification is available in [SKILL.md](./SKILL.md).
+
+---
+
+<div align="center">
+  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
+  <br/>
+  <sub>A <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a> project</sub>
+</div>

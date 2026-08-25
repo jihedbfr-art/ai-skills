@@ -1,13 +1,9 @@
 <!-- GENERATED — do not edit -->
-<div align="center">
-  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
-</div>
-
 # MCP Python Server: FastAPI
 
 <div align="center">
 
-**A <a href="https://github.com/jihedbfr-art">JihedAiLabs</a> project** — Architectural pattern for building custom Model Context Protocol (MCP) servers using Python, SSE transport, and FastAPI for enterprise integrations.
+Architectural pattern for building custom Model Context Protocol (MCP) servers using Python, SSE transport, and FastAPI for enterprise integrations.
 
 <a href="./README.fr.md">Version française</a>
 
@@ -27,3 +23,11 @@ Architectural pattern for building custom Model Context Protocol (MCP) servers u
 
 ## Agent Instructions
 The canonical agent-executable specification is available in [SKILL.md](./SKILL.md).
+
+---
+
+<div align="center">
+  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
+  <br/>
+  <sub>A <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a> project</sub>
+</div>

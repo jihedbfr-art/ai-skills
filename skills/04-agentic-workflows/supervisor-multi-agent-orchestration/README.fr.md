@@ -1,13 +1,9 @@
 <!-- GENERATED — do not edit -->
-<div align="center">
-  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
-</div>
-
 # Supervisor Multi-Agent Orchestration
 
 <div align="center">
 
-**Un projet <a href="https://github.com/jihedbfr-art">JihedAiLabs</a>** — Pattern de conception multi-agents utilisant un agent superviseur centralisé pour router les tâches, évaluer les sorties des agents travailleurs et gérer l'état global.
+Pattern de conception multi-agents utilisant un agent superviseur centralisé pour router les tâches, évaluer les sorties des agents travailleurs et gérer l'état global.
 
 <a href="./README.md">English version</a>
 
@@ -27,3 +23,11 @@ Pattern de conception multi-agents utilisant un agent superviseur centralisé po
 
 ## Instructions Agent
 Le fichier canonique consommable par un agent IA (`Claude Code`, `Antigravity`, `Cursor`) est disponible dans [SKILL.md](./SKILL.md).
+
+---
+
+<div align="center">
+  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
+  <br/>
+  <sub>Un projet <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a></sub>
+</div>

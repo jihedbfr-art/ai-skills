@@ -1,13 +1,9 @@
 <!-- GENERATED — do not edit -->
-<div align="center">
-  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
-</div>
-
 # LLM Selection and Token Math
 
 <div align="center">
 
-**A <a href="https://github.com/jihedbfr-art">JihedAiLabs</a> project** — Architectural guidelines for LLM provider selection, context window decay management, tokenizer calculations, and pricing trade-offs.
+Architectural guidelines for LLM provider selection, context window decay management, tokenizer calculations, and pricing trade-offs.
 
 <a href="./README.fr.md">Version française</a>
 
@@ -27,3 +23,11 @@ Architectural guidelines for LLM provider selection, context window decay manage
 
 ## Agent Instructions
 The canonical agent-executable specification is available in [SKILL.md](./SKILL.md).
+
+---
+
+<div align="center">
+  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
+  <br/>
+  <sub>A <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a> project</sub>
+</div>

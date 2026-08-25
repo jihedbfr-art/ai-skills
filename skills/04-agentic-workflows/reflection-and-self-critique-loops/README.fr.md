@@ -1,13 +1,9 @@
 <!-- GENERATED — do not edit -->
-<div align="center">
-  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
-</div>
-
 # Boucles de Réflexion et Auto-Critique
 
 <div align="center">
 
-**Un projet <a href="https://github.com/jihedbfr-art">JihedAiLabs</a>** — Pattern d'agent où la sortie d'un LLM générateur est critiquée par une seconde passe (soi-même ou un modèle séparé) avant acceptation, échangeant latence et tokens contre de la justesse.
+Pattern d'agent où la sortie d'un LLM générateur est critiquée par une seconde passe (soi-même ou un modèle séparé) avant acceptation, échangeant latence et tokens contre de la justesse.
 
 <a href="./README.md">English version</a>
 
@@ -27,3 +23,11 @@ Pattern d'agent où la sortie d'un LLM générateur est critiquée par une secon
 
 ## Instructions Agent
 Le fichier canonique consommable par un agent IA (`Claude Code`, `Antigravity`, `Cursor`) est disponible dans [SKILL.md](./SKILL.md).
+
+---
+
+<div align="center">
+  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
+  <br/>
+  <sub>Un projet <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a></sub>
+</div>

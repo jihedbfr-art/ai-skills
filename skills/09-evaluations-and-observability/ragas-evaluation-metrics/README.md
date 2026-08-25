@@ -1,13 +1,9 @@
 <!-- GENERATED — do not edit -->
-<div align="center">
-  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
-</div>
-
 # RAGAS Evaluation Metrics
 
 <div align="center">
 
-**A <a href="https://github.com/jihedbfr-art">JihedAiLabs</a> project** — Quantitative evaluation framework for RAG systems using Faithfulness, Answer Relevancy, and Context Precision metrics.
+Quantitative evaluation framework for RAG systems using Faithfulness, Answer Relevancy, and Context Precision metrics.
 
 <a href="./README.fr.md">Version française</a>
 
@@ -27,3 +23,11 @@ Quantitative evaluation framework for RAG systems using Faithfulness, Answer Rel
 
 ## Agent Instructions
 The canonical agent-executable specification is available in [SKILL.md](./SKILL.md).
+
+---
+
+<div align="center">
+  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
+  <br/>
+  <sub>A <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a> project</sub>
+</div>

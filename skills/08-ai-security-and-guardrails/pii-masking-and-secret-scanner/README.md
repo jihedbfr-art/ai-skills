@@ -1,13 +1,9 @@
 <!-- GENERATED — do not edit -->
-<div align="center">
-  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
-</div>
-
 # PII Masking and Secret Scanner
 
 <div align="center">
 
-**A <a href="https://github.com/jihedbfr-art">JihedAiLabs</a> project** — Security pattern for intercepting and masking Personally Identifiable Information (PII) and credentials before sending prompts to external LLM APIs.
+Security pattern for intercepting and masking Personally Identifiable Information (PII) and credentials before sending prompts to external LLM APIs.
 
 <a href="./README.fr.md">Version française</a>
 
@@ -27,3 +23,11 @@ Security pattern for intercepting and masking Personally Identifiable Informatio
 
 ## Agent Instructions
 The canonical agent-executable specification is available in [SKILL.md](./SKILL.md).
+
+---
+
+<div align="center">
+  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
+  <br/>
+  <sub>A <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a> project</sub>
+</div>

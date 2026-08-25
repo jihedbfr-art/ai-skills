@@ -1,13 +1,9 @@
 <!-- GENERATED — do not edit -->
-<div align="center">
-  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
-</div>
-
 # Chain-of-Thought and ReAct Patterns
 
 <div align="center">
 
-**Un projet <a href="https://github.com/jihedbfr-art">JihedAiLabs</a>** — Directives d'implémentation du raisonnement structuré avec les techniques de prompting Chain-of-Thought (CoT) et ReAct (Reasoning and Acting).
+Directives d'implémentation du raisonnement structuré avec les techniques de prompting Chain-of-Thought (CoT) et ReAct (Reasoning and Acting).
 
 <a href="./README.md">English version</a>
 
@@ -27,3 +23,11 @@ Directives d'implémentation du raisonnement structuré avec les techniques de p
 
 ## Instructions Agent
 Le fichier canonique consommable par un agent IA (`Claude Code`, `Antigravity`, `Cursor`) est disponible dans [SKILL.md](./SKILL.md).
+
+---
+
+<div align="center">
+  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
+  <br/>
+  <sub>Un projet <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a></sub>
+</div>

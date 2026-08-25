@@ -1,13 +1,9 @@
 <!-- GENERATED — do not edit -->
-<div align="center">
-  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
-</div>
-
 # Git: Human-Agentic Workflow
 
 <div align="center">
 
-**Un projet <a href="https://github.com/jihedbfr-art">JihedAiLabs</a>** — Conventions de production pour les assistants de codage IA garantissant un style de commit humain, un historique Git propre, zéro trace d'IA et une autonomie sûre sur le dépôt.
+Conventions de production pour les assistants de codage IA garantissant un style de commit humain, un historique Git propre, zéro trace d'IA et une autonomie sûre sur le dépôt.
 
 <a href="./README.md">English version</a>
 
@@ -27,3 +23,11 @@ Conventions de production pour les assistants de codage IA garantissant un style
 
 ## Instructions Agent
 Le fichier canonique consommable par un agent IA (`Claude Code`, `Antigravity`, `Cursor`) est disponible dans [SKILL.md](./SKILL.md).
+
+---
+
+<div align="center">
+  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
+  <br/>
+  <sub>Un projet <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a></sub>
+</div>

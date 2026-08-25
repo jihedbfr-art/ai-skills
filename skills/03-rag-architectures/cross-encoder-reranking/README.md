@@ -1,13 +1,9 @@
 <!-- GENERATED — do not edit -->
-<div align="center">
-  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
-</div>
-
 # Cross Encoder Reranking
 
 <div align="center">
 
-**A <a href="https://github.com/jihedbfr-art">JihedAiLabs</a> project** — Adding a second-stage cross-encoder pass after vector/hybrid retrieval to re-score candidates jointly with the query, correcting for the recall-over-precision bias of embedding search.
+Adding a second-stage cross-encoder pass after vector/hybrid retrieval to re-score candidates jointly with the query, correcting for the recall-over-precision bias of embedding search.
 
 <a href="./README.fr.md">Version française</a>
 
@@ -27,3 +23,11 @@ Adding a second-stage cross-encoder pass after vector/hybrid retrieval to re-sco
 
 ## Agent Instructions
 The canonical agent-executable specification is available in [SKILL.md](./SKILL.md).
+
+---
+
+<div align="center">
+  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
+  <br/>
+  <sub>A <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a> project</sub>
+</div>

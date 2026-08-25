@@ -1,13 +1,9 @@
 <!-- GENERATED — do not edit -->
-<div align="center">
-  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
-</div>
-
 # Embedding Model Selection and Dimensions
 
 <div align="center">
 
-**Un projet <a href="https://github.com/jihedbfr-art">JihedAiLabs</a>** — Directives architecturales pour choisir un modèle d'embedding selon la dimensionnalité vectorielle, le support multilingue et les contraintes de stockage.
+Directives architecturales pour choisir un modèle d'embedding selon la dimensionnalité vectorielle, le support multilingue et les contraintes de stockage.
 
 <a href="./README.md">English version</a>
 
@@ -27,3 +23,11 @@ Directives architecturales pour choisir un modèle d'embedding selon la dimensio
 
 ## Instructions Agent
 Le fichier canonique consommable par un agent IA (`Claude Code`, `Antigravity`, `Cursor`) est disponible dans [SKILL.md](./SKILL.md).
+
+---
+
+<div align="center">
+  <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
+  <br/>
+  <sub>Un projet <a href="https://github.com/jihedbfr-art"><b>JihedAiLabs</b></a></sub>
+</div>
