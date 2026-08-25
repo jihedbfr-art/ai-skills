@@ -1,7 +1,7 @@
 ---
 format: "v2"
 name: "semantic-chunking-and-metadata-filtering"
-title: "Semantic Chunking And Metadata Filtering"
+title: "Semantic Chunking and Metadata Filtering"
 title_fr: "Semantic Chunking and Metadata Filtering"
 description: "Advanced RAG strategies using semantic document chunking and exact-match metadata filtering to improve retrieval precision."
 description_fr: "Stratégies RAG avancées combinant chunking sémantique des documents et filtrage de métadonnées par correspondance exacte pour améliorer la précision de récupération."

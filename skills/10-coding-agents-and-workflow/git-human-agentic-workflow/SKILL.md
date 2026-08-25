@@ -1,7 +1,7 @@
 ---
 format: "v2"
 name: "git-human-agentic-workflow"
-title: "Git Human Agentic Workflow"
+title: "Git: Human-Agentic Workflow"
 title_fr: "Git: Human-Agentic Workflow"
 description: "Production conventions for AI coding assistants ensuring human commit style, clean Git history, zero AI traces, and safe repository autonomy."
 description_fr: "Conventions de production pour les assistants de codage IA garantissant un style de commit humain, un historique Git propre, zéro trace d'IA et une autonomie sûre sur le dépôt."

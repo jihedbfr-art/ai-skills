@@ -3,7 +3,7 @@
   <img src="../../../assets/brand/jihedailabs-logo.svg" alt="JihedAiLabs" width="120"/>
 </div>
 
-# o1 Reasoning vs Claude 3.5
+# Raisonnement o1 vs Claude 3.5
 
 <div align="center">
 

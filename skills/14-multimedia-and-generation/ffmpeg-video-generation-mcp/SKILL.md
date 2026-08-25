@@ -1,7 +1,7 @@
 ---
 format: "v2"
 name: "ffmpeg-video-generation-mcp"
-title: "Ffmpeg Video Generation Mcp"
+title: "FFmpeg Video Generation MCP"
 title_fr: "FFmpeg Video Generation MCP"
 description: "Architectural pattern for building an MCP server that delegates multimedia tasks to FFmpeg for programmatic video and audio generation."
 description_fr: "Pattern architectural pour construire un serveur MCP qui délègue les tâches multimédia à FFmpeg pour la génération programmatique de vidéo et d'audio."

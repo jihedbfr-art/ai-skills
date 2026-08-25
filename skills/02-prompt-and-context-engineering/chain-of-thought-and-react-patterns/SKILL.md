@@ -1,7 +1,7 @@
 ---
 format: "v2"
 name: "chain-of-thought-and-react-patterns"
-title: "Chain Of Thought And React Patterns"
+title: "Chain-of-Thought and ReAct Patterns"
 title_fr: "Chain-of-Thought and ReAct Patterns"
 description: "Implementation guidelines for structural reasoning using Chain-of-Thought (CoT) and ReAct (Reasoning and Acting) prompting techniques."
 description_fr: "Directives d'implémentation du raisonnement structuré avec les techniques de prompting Chain-of-Thought (CoT) et ReAct (Reasoning and Acting)."

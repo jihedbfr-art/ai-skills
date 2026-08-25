@@ -1,7 +1,7 @@
 ---
 format: "v2"
 name: "quantization-gguf-awq-tuning"
-title: "Quantization Gguf Awq Tuning"
+title: "Quantization: GGUF and AWQ Tuning"
 title_fr: "Quantization: GGUF and AWQ Tuning"
 description: "Architectural guidelines for running local LLMs using GGUF and AWQ quantization formats to balance VRAM usage and model precision."
 description_fr: "Directives architecturales pour l'exécution de LLM en local avec les formats de quantization GGUF et AWQ, afin d'équilibrer l'usage VRAM et la précision du modèle."

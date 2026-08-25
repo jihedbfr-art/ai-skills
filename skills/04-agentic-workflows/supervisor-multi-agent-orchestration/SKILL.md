@@ -1,7 +1,7 @@
 ---
 format: "v2"
 name: "supervisor-multi-agent-orchestration"
-title: "Supervisor Multi Agent Orchestration"
+title: "Supervisor Multi-Agent Orchestration"
 title_fr: "Supervisor Multi-Agent Orchestration"
 description: "Multi-agent design pattern using a centralized Supervisor agent to route tasks, evaluate worker outputs, and manage global state."
 description_fr: "Pattern de conception multi-agents utilisant un agent superviseur centralisé pour router les tâches, évaluer les sorties des agents travailleurs et gérer l'état global."

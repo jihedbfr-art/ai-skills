@@ -1,7 +1,7 @@
 ---
 format: "v2"
 name: "opentelemetry-llm-tracing-and-ttft"
-title: "Opentelemetry Llm Tracing And Ttft"
+title: "OpenTelemetry LLM Tracing and TTFT"
 title_fr: "OpenTelemetry LLM Tracing and TTFT"
 description: "Architectural pattern for monitoring AI agents using OpenTelemetry to track token usage, Time-To-First-Token (TTFT), and agent reasoning spans."
 description_fr: "Pattern architectural pour surveiller les agents IA avec OpenTelemetry : suivi de l'usage des tokens, du Time-To-First-Token (TTFT) et des spans de raisonnement des agents."
