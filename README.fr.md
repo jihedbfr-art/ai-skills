@@ -5,11 +5,12 @@
 <h1 align="center">AI Engineering Skills Library</h1>
 
 <p align="center">
-  <b>Base de connaissances opérationnelle pour l'ingénierie des systèmes IA, agents LLM, pipelines RAG et intégrations Model Context Protocol (MCP).</b>
+  <b>32 fiches pour construire des agents LLM, des pipelines RAG et des intégrations MCP — écrites pour qu'un ingénieur backend ou un agent de code puissent l'une comme l'autre les exécuter telles quelles.</b>
 </p>
 
 <p align="center">
   <a href="README.md">🇬🇧 Read in English</a> •
+  <a href="#utiliser-une-fiche">Utiliser une fiche</a> •
   <a href="#-architecture--domaines">Architecture</a> •
   <a href="#-conventions">Conventions</a> •
   <a href="#-licence">Licence</a>
@@ -17,11 +18,23 @@
 
 ---
 
-## 📌 Présentation
+## Pourquoi ce dépôt existe
 
-Ce dépôt rassemble **32 compétences d'ingénierie IA (skills)** réparties sur **15 domaines clés**, en croissance vers un plafond de 5 skills par domaine. Chaque fiche suit un format hybride : des recommandations d'architecture claires pour l'humain et des patterns directement exploitables par les assistants d'ingénierie et développeurs.
+La plupart des contenus d'ingénierie IA en ligne s'arrêtent à « voici comment fonctionne le RAG » ou « voici une démo LangChain ». Ils précisent rarement ce que coûte une stratégie de chunking en tokens, quelle approche de reranking survit à un vrai budget de latence, ou comment câbler le même pattern dans un backend Spring AI plutôt que dans un notebook Python.
 
-Il fait le pont entre la théorie de l'IA et la réalité de la production en entreprise (économie des tokens, compromis de latence, gestion d'état, garde-fous de sécurité et intégration Spring AI).
+Chaque fiche ici s'adresse à quelqu'un qui sait déjà ce qu'est un LLM et qui a besoin de la décision de production : quelle taille de chunk, quel index, quel garde-fou, à quel coût en tokens et en latence — avec la version de bibliothèque cible épinglée pour que le conseil ne se périme pas en silence.
+
+## Utiliser une fiche
+
+**En tant qu'humain.** Ouvrez le `SKILL.md` du domaine qui vous intéresse, lisez le contexte architectural, et vérifiez les versions de bibliothèque épinglées avant de l'appliquer — la surface d'API des LLM évolue assez vite pour qu'un conseil non daté vieillisse mal.
+
+**En tant que skill d'agent.** Chaque dossier de fiche suit la convention `SKILL.md` prise en charge par plusieurs assistants de code agentiques : un bloc YAML en frontmatter (`name`, `description`, `audience`, `requires`) suivi des instructions dans le corps. Copiez celles dont vous avez besoin dans le répertoire de skills de votre assistant :
+
+```bash
+cp -r skills/03-rag-architectures/hybrid-search-bm25-vector-pgvector ~/.config/agent-skills/
+```
+
+Le champ `description` du frontmatter est ce que l'assistant compare pour choisir la fiche : il est donc rédigé comme une phrase déclencheuse, pas comme un titre.
 
 ---
 
