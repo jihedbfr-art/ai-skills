@@ -5,11 +5,12 @@
 <h1 align="center">AI Engineering Skills Library</h1>
 
 <p align="center">
-  <b>A pragmatic, production-ready engineering knowledge base for building AI systems, LLM agents, RAG pipelines, and Model Context Protocol (MCP) integrations.</b>
+  <b>32 skills for building LLM agents, RAG pipelines, and MCP integrations — written so a backend engineer or a coding agent can both run them as-is.</b>
 </p>
 
 <p align="center">
   <a href="README.fr.md">🇫🇷 Lire en Français</a> •
+  <a href="#using-a-skill">Using a skill</a> •
   <a href="#-architecture--domains">Architecture</a> •
   <a href="#-conventions">Conventions</a> •
   <a href="#-license">License</a>
@@ -17,11 +18,23 @@
 
 ---
 
-## 📌 Overview
+## Why this exists
 
-This repository provides **32 actionable AI Engineering skills** organized into **15 core domains**, growing toward a 5-skill ceiling per domain. Each skill is written in a hybrid format: human-readable architectural guidance paired with machine-executable patterns for AI coding assistants and developers.
+Most AI engineering content online stops at "here's how RAG works" or "here's a LangChain demo." It rarely says what a chunking strategy costs in tokens, which reranking approach survives a real latency budget, or how to wire the same pattern into a Spring AI backend instead of a Python notebook.
 
-It bridges the gap between theoretical AI concepts and enterprise production realities (token economics, latency tradeoffs, state management, security guardrails, and Spring AI integration).
+Each skill here is written for someone who already knows what an LLM is and needs the production decision: which chunking size, which index, which guardrail, at what token and latency cost — with the target library version pinned so the advice doesn't rot silently.
+
+## Using a skill
+
+**As a human.** Open the `SKILL.md` for the domain you need, read the architectural context, and check the pinned library versions before applying it — an LLM API surface moves fast enough that untagged advice ages badly.
+
+**As an agent skill.** Each skill directory follows the `SKILL.md` convention supported by several agentic coding assistants: YAML frontmatter (`name`, `description`, `audience`, `requires`) followed by the instructions in the body. Copy the ones you need into your assistant's skills directory:
+
+```bash
+cp -r skills/03-rag-architectures/hybrid-search-bm25-vector-pgvector ~/.config/agent-skills/
+```
+
+The frontmatter `description` is what the assistant matches against, so it's phrased as a trigger sentence, not a title.
 
 ---
 
