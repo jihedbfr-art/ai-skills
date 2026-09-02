@@ -5,7 +5,7 @@
 <h1 align="center">AI Engineering Skills Library</h1>
 
 <p align="center">
-  <b>32 skills for building LLM agents, RAG pipelines, and MCP integrations — written so a backend engineer or a coding agent can both run them as-is.</b>
+  <b>48 skills for building LLM agents, RAG pipelines, and MCP integrations — written so a backend engineer or a coding agent can both run them as-is.</b>
 </p>
 
 <p align="center">
@@ -65,21 +65,21 @@ ai-skills/
 
 | Domain | Skills | Focus Area | Key Topics Covered |
 | :--- | :---: | :--- | :--- |
-| **01. LLM Foundations** | 2 | Model Selection & Economics | Tokenizer math, context window decay, quantization (GGUF/AWQ), pricing models |
+| **01. LLM Foundations** | 5 | Model Selection & Economics | Tokenizer math, context window decay, quantization (GGUF/AWQ), pricing models, local execution with Ollama, GPT-4o image token cost, Gemini context caching |
 | **02. Prompt & Context Eng.** | 2 | Prompt Optimization | System prompt architecture, XML boundaries, ReAct patterns, context truncation |
-| **03. RAG Architectures** | 4 | Advanced Retrieval | Semantic chunking, BM25 + Vector hybrid search, cross-encoder rerank, GraphRAG |
-| **04. Agentic Workflows** | 4 | Multi-Agent Orchestration | State graph persistence, supervisor pattern, reflection loops, parallel tool-use |
+| **03. RAG Architectures** | 5 | Advanced Retrieval | Semantic chunking, BM25 + Vector hybrid search, cross-encoder rerank, GraphRAG, parent-child retrieval |
+| **04. Agentic Workflows** | 8 | Multi-Agent Orchestration | State graph persistence, supervisor pattern, reflection loops, parallel tool-use, LCEL composition, Gemini search grounding, triage handoff, heuristic model routing |
 | **05. MCP & Tooling** | 2 | Protocol Standards | MCP server specification, stdio transport, JSON-Schema tool definitions |
-| **06. Spring AI Integration** | 2 | Enterprise Java AI | `ChatClient` fluent API, `Advisor` chain, Spring Data PGVector, Tool Calling `@Bean` |
-| **07. Vector DB & Embeddings**| 2 | Data Store Optimization | Embedding dimension trade-offs, HNSW index tuning, Cosine vs Inner Product |
-| **08. AI Security** | 2 | Hardening & Guardrails | Indirect prompt injection, output sanitization, PII masking, token rate-limiting |
-| **09. Evals & Observability** | 4 | Quality & Metrics | RAGAS metrics, pairwise LLM-as-judge, golden dataset CI gates, OpenTelemetry |
+| **06. Spring AI Integration** | 4 | Enterprise Java AI | `ChatClient` fluent API, `Advisor` chain, Spring Data PGVector, Tool Calling `@Bean`, OpenAI and Anthropic providers, `BeanOutputConverter` structured outputs |
+| **07. Vector DB & Embeddings**| 3 | Data Store Optimization | Embedding dimension trade-offs, HNSW index tuning, Cosine vs Inner Product, ChromaDB persistent collections |
+| **08. AI Security** | 3 | Hardening & Guardrails | Indirect prompt injection, output sanitization, PII masking, token rate-limiting, OWASP Top 10 for LLM applications |
+| **09. Evals & Observability** | 5 | Quality & Metrics | RAGAS metrics, pairwise LLM-as-judge, golden dataset CI gates, OpenTelemetry, LangSmith tracing |
 | **10. Coding Agents** | 2 | Developer Productivity | Autonomous agent workflows, Git commit hygiene, automated test generation |
-| **11. Custom MCP** | 1 | Extending Context | Python/TS MCP server creation, custom tool APIs, SSE/stdio routing |
+| **11. Custom MCP** | 2 | Extending Context | Python/TS MCP server creation, custom tool APIs, SSE/stdio routing, an MCP server over PostgreSQL with Spring AI |
 | **12. Low-Code AI** | 1 | Visual Workflows | n8n agent orchestration, Dify pipelines, branching logic |
 | **13. AI UX & Frontend** | 1 | Generative Interfaces | Claude artifacts, v0.dev UI, streaming component rendering |
 | **14. Multimedia AI** | 1 | Rich Content | Sora video workflows, automated PPTX generation, audio synthesis |
-| **15. Frontier Models** | 2 | Model Evaluation & Cost | Reasoning model capability comparisons, test-time compute budgeting |
+| **15. Frontier Models** | 4 | Model Evaluation & Cost | Reasoning model capability comparisons, test-time compute budgeting, extended thinking budgets, prompting an RL-trained reasoner |
 
 ---
 

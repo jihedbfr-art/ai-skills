@@ -5,7 +5,7 @@
 <h1 align="center">AI Engineering Skills Library</h1>
 
 <p align="center">
-  <b>32 fiches pour construire des agents LLM, des pipelines RAG et des intégrations MCP — écrites pour qu'un ingénieur backend ou un agent de code puissent l'une comme l'autre les exécuter telles quelles.</b>
+  <b>48 fiches pour construire des agents LLM, des pipelines RAG et des intégrations MCP — écrites pour qu'un ingénieur backend ou un agent de code puissent l'une comme l'autre les exécuter telles quelles.</b>
 </p>
 
 <p align="center">
@@ -65,21 +65,21 @@ ai-skills/
 
 | Domaine | Skills | Thème Principal | Sujets Couverts |
 | :--- | :---: | :--- | :--- |
-| **01. LLM Foundations** | 2 | Modèles & Économie | Calculs de tokenization, dégradation du contexte, quantification (GGUF/AWQ), coûts API |
+| **01. LLM Foundations** | 5 | Modèles & Économie | Calculs de tokenization, dégradation du contexte, quantification (GGUF/AWQ), coûts API, exécution locale avec Ollama, coût en tokens d'une image GPT-4o, context caching Gemini |
 | **02. Prompt & Context Eng.** | 2 | Optimisation de Prompt | Architecture du prompt système, délimiteurs XML, ReAct, troncature de contexte |
-| **03. RAG Architectures** | 4 | Recherche Avancée | Chunking sémantique, hybride BM25 + Vector, reranking cross-encoder, GraphRAG |
-| **04. Agentic Workflows** | 4 | Orchestration Multi-Agents | Persistance de graphe d'état, pattern supervisor, réflexion, outils parallèles |
+| **03. RAG Architectures** | 5 | Recherche Avancée | Chunking sémantique, hybride BM25 + Vector, reranking cross-encoder, GraphRAG, récupération parent-enfant |
+| **04. Agentic Workflows** | 8 | Orchestration Multi-Agents | Persistance de graphe d'état, pattern supervisor, réflexion, outils parallèles, composition LCEL, grounding Gemini, passage de relais de triage, routage heuristique entre modèles |
 | **05. MCP & Tooling** | 2 | Spécification Protocole | Serveur MCP, transport stdio/SSE, schémas d'outils JSON-Schema |
-| **06. Spring AI Integration** | 2 | IA Java Entreprise | API fluide `ChatClient`, chaîne d'Advisors, Spring Data PGVector, Tool Calling `@Bean` |
-| **07. Vector DB & Embeddings**| 2 | Optimisation Stockage | Compromis dimensionnels d'embeddings, indexation HNSW, Cosine vs Produit Scalaire |
-| **08. AI Security** | 2 | Sécurité & Garde-Fous | Prompt injection indirect, assainissement de sortie, masquage PII, rate-limiting |
-| **09. Evals & Observabilité** | 4 | Qualité & Métriques | RAGAS, LLM-as-judge comparatif, jeu de données étalon (CI), spans OpenTelemetry |
+| **06. Spring AI Integration** | 4 | IA Java Entreprise | API fluide `ChatClient`, chaîne d'Advisors, Spring Data PGVector, Tool Calling `@Bean`, providers OpenAI et Anthropic, sorties structurées `BeanOutputConverter` |
+| **07. Vector DB & Embeddings**| 3 | Optimisation Stockage | Compromis dimensionnels d'embeddings, indexation HNSW, Cosine vs Produit Scalaire, collections persistantes ChromaDB |
+| **08. AI Security** | 3 | Sécurité & Garde-Fous | Prompt injection indirect, assainissement de sortie, masquage PII, rate-limiting, OWASP Top 10 des applications LLM |
+| **09. Evals & Observabilité** | 5 | Qualité & Métriques | RAGAS, LLM-as-judge comparatif, jeu de données étalon (CI), spans OpenTelemetry, traçage LangSmith |
 | **10. Coding Agents** | 2 | Productivité Développeur | Flux d'agents autonomes, hygiène des commits Git, génération de tests |
-| **11. Custom MCP** | 1 | Extension de Contexte | Création de serveur MCP Python/TS, APIs personnalisées, routage SSE/stdio |
+| **11. Custom MCP** | 2 | Extension de Contexte | Création de serveur MCP Python/TS, APIs personnalisées, routage SSE/stdio, un serveur MCP sur PostgreSQL avec Spring AI |
 | **12. Low-Code AI** | 1 | Workflows Visuels | Orchestration n8n, pipelines Dify, logique de branchement |
 | **13. AI UX & Frontend** | 1 | Interfaces Génératives | Claude artifacts, UI v0.dev, rendu de composants en streaming |
 | **14. Multimedia AI** | 1 | Contenu Enrichi | Flux vidéo Sora, automatisation PPTX, synthèse audio |
-| **15. Frontier Models** | 2 | Évaluation & Coût des Modèles | Comparatifs de capacités entre modèles de raisonnement, budgets de compute |
+| **15. Frontier Models** | 4 | Évaluation & Coût des Modèles | Comparatifs de capacités entre modèles de raisonnement, budgets de compute, budgets de raisonnement étendu, prompter un raisonneur entraîné par renforcement |
 
 ---
 
