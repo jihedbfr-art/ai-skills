@@ -90,7 +90,7 @@ Every skill in this repository complies with 4 strict engineering constraints:
 1. **Explicit Cost & Latency Estimation**: Every technique specifies its token consumption impact, latency penalty (TTFT / TBT), and maintenance complexity.
 2. **API Surface Versioning**: All cited library APIs (Spring AI, LangChain, Anthropic SDK, OpenAI SDK) explicitly state the target version to prevent deprecation drift.
 3. **No Artificial Bloat**: Each domain grows toward a **5 high-impact skills** ceiling — new entries are added only when they cover a genuinely distinct pattern, never to pad the count.
-4. **Zero AI Traces**: All documentation and code samples use natural, authoritative engineering language grounded in real-world deployment experience.
+4. **Practitioner Voice**: Every skill is written the way an engineer who actually ran this in production would write it — grounded in real deployment experience, not generic best-practice filler.
 
 ---
 
