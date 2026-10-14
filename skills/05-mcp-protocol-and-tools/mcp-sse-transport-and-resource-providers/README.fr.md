@@ -1,9 +1,9 @@
 <!-- GENERATED — do not edit -->
-# MCP SSE Transport and Resource Providers
+# Transport SSE MCP et fournisseurs de ressources
 
 <div align="center">
 
-Pattern architectural pour exposer des serveurs MCP (Model Context Protocol) via HTTP avec Server-Sent Events (SSE) et implémenter des Resource Providers dynamiques.
+À utiliser pour diagnostiquer une connexion MCP : identifier son transport et vérifier l'isolation des appelants et les erreurs d'outils avant de connecter un agent.
 
 <a href="./README.md">English version</a>
 
@@ -12,14 +12,14 @@ Pattern architectural pour exposer des serveurs MCP (Model Context Protocol) via
 ---
 
 ## Description
-Pattern architectural pour exposer des serveurs MCP (Model Context Protocol) via HTTP avec Server-Sent Events (SSE) et implémenter des Resource Providers dynamiques.
+À utiliser pour diagnostiquer une connexion MCP : identifier son transport et vérifier l'isolation des appelants et les erreurs d'outils avant de connecter un agent.
 
 ## Domaine & Metadata
 - **Domaine :** `05-mcp-protocol-and-tools`
 - **Maturité :** `stable`
 - **Public visé :** `["backend-engineer", "security-engineer", "coding-agent"]`
 - **Prérequis techniques :** `["bash", "git"]`
-- **Dernière mise à jour :** 2026-08-08
+- **Dernière mise à jour :** 2026-10-14
 
 ## Instructions Agent
 Le fichier canonique consommable par un agent IA (`Claude Code`, `Antigravity`, `Cursor`) est disponible dans [SKILL.md](./SKILL.md).

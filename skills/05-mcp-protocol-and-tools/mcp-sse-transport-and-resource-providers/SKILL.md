@@ -2,15 +2,15 @@
 format: "v2"
 name: "mcp-sse-transport-and-resource-providers"
 title: "MCP SSE Transport and Resource Providers"
-title_fr: "MCP SSE Transport and Resource Providers"
-description: "Architectural pattern for exposing Model Context Protocol (MCP) servers over HTTP using Server-Sent Events (SSE) and implementing dynamic Resource Providers."
-description_fr: "Pattern architectural pour exposer des serveurs MCP (Model Context Protocol) via HTTP avec Server-Sent Events (SSE) et implémenter des Resource Providers dynamiques."
+title_fr: "Transport SSE MCP et fournisseurs de ressources"
+description: "Use when diagnosing an MCP connection: identify its transport and verify caller isolation and tool errors before connecting an agent."
+description_fr: "À utiliser pour diagnostiquer une connexion MCP : identifier son transport et vérifier l'isolation des appelants et les erreurs d'outils avant de connecter un agent."
 domain: "05-mcp-protocol-and-tools"
 tags: [cybersecurity, engineering, best-practices]
 maturity: "stable"
 audience: ["backend-engineer", "security-engineer", "coding-agent"]
 requires: ["bash", "git"]
-updated: "2026-08-08"
+updated: "2026-10-14"
 ---
 
 
@@ -20,7 +20,9 @@ updated: "2026-08-08"
 
 ## Usage
 ### Architectural Purpose
-While the `stdio` transport is ideal for local, single-user desktop agents, enterprise applications require MCP servers to run remotely over HTTP. The Server-Sent Events (SSE) transport allows an MCP server to handle multiple concurrent clients. Additionally, the `Resource` pattern allows MCP servers to expose raw data streams (logs, files, DB tables) rather than just functional tools.
+Version scope: the implementation below is a legacy SSE sketch, not a current SDK compatibility claim. MCP 2025-11-25 defines stdio and Streamable HTTP; the old two-endpoint HTTP+SSE transport belongs to the 2024-11-05 protocol. Do not infer a transport from the presence of SSE alone. Use the [connection preflight](connection-preflight.md) and its [French version](connection-preflight.fr.md) before connecting an agent. The [transport specification](https://modelcontextprotocol.io/specification/2025-11-25/basic/transports) defines the distinction.
+
+Local stdio servers run as subprocesses. For a remote deployment, select the HTTP transport supported by the server and client. Resource providers expose named data alongside tools. The legacy example below illustrates that resource pattern; check its SDK API before reusing it.
 
 ---
 
