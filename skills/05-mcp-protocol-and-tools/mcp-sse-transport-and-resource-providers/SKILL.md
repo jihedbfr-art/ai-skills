@@ -20,9 +20,9 @@ updated: "2026-10-15"
 
 ## Usage
 ### Architectural Purpose
-Use the [offline response lab](result-lab/README.md), also available in [French](result-lab/README.fr.md), to practice result classification before testing a live connection. Its output is a teaching classification, never an authorization decision.
+Use the [offline response lab](result-lab/README.md) to practice result classification before testing a live connection. Its output is a teaching classification, never an authorization decision.
 
-Version scope: the implementation below is a legacy SSE sketch, not a current SDK compatibility claim. MCP 2025-11-25 defines stdio and Streamable HTTP; the old two-endpoint HTTP+SSE transport belongs to the 2024-11-05 protocol. Do not infer a transport from the presence of SSE alone. Use the [connection preflight](connection-preflight.md) and its [French version](connection-preflight.fr.md) before connecting an agent. The [transport specification](https://modelcontextprotocol.io/specification/2025-11-25/basic/transports) defines the distinction.
+Version scope: the implementation below is a legacy SSE sketch, not a current SDK compatibility claim. MCP 2025-11-25 defines stdio and Streamable HTTP; the old two-endpoint HTTP+SSE transport belongs to the 2024-11-05 protocol. Do not infer a transport from the presence of SSE alone. Use the [connection preflight](connection-preflight.md) before connecting an agent. The [transport specification](https://modelcontextprotocol.io/specification/2025-11-25/basic/transports) defines the distinction.
 
 Local stdio servers run as subprocesses. For a remote deployment, select the HTTP transport supported by the server and client. Resource providers expose named data alongside tools. The legacy example below illustrates that resource pattern; check its SDK API before reusing it.
 
