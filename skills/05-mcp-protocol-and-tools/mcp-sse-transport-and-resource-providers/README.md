@@ -19,7 +19,7 @@ Use when diagnosing an MCP connection: identify its transport and verify caller 
 - **Maturity:** `stable`
 - **Audience:** `["backend-engineer", "security-engineer", "coding-agent"]`
 - **Requirements:** `["bash", "git"]`
-- **Last Updated:** 2026-10-14
+- **Last Updated:** 2026-10-15
 
 ## Agent Instructions
 The canonical agent-executable specification is available in [SKILL.md](./SKILL.md).
