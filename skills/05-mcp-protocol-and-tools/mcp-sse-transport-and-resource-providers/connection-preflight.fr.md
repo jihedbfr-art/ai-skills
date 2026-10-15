@@ -38,6 +38,8 @@ Les cinq tests d'intégration de cette version ont été rejoués localement le 
 
 ## Sources et coût
 
+Pratiquer la lecture des résultats dans l'[atelier hors ligne](result-lab/README.fr.md) : six fixtures synthétiques et un classificateur Python utilisant la bibliothèque standard. Son résultat `candidate_success` n'autorise pas l'exécution du contenu reçu. L'atelier distingue volontairement une réponse correctement structurée d'un résultat digne de confiance.
+
 Utiliser les [transports MCP](https://modelcontextprotocol.io/specification/2025-11-25/basic/transports) pour le périmètre du protocole et la [gestion des erreurs d'outils](https://modelcontextprotocol.io/specification/2025-11-25/server/tools#error-handling) pour interpréter les résultats. La [PR de référence](https://github.com/jihedbfr-art/mcp-keycloak-guard/pull/1) n'est pas une release publiée. Un test Docker local prend plus de temps qu'un contrôle de schéma, mais il exerce ensemble l'authentification et l'invocation asynchrone. Le rejouer quand ces frontières changent ; garder un petit contrôle inerte pour les vérifications courantes de connexion.
 
 ---

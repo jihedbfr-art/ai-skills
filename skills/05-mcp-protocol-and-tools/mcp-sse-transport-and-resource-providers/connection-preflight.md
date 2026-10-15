@@ -38,6 +38,8 @@ The five integration tests at this snapshot were replayed locally on 14 October 
 
 ## Sources and cost
 
+Practice result interpretation in the [offline response lab](result-lab/README.md): six synthetic fixtures and a standard-library Python classifier. Its `candidate_success` result is not permission to execute the received content. The lab deliberately separates a correctly shaped response from a trusted result.
+
 Use [MCP transports](https://modelcontextprotocol.io/specification/2025-11-25/basic/transports) for protocol scope and [tool error handling](https://modelcontextprotocol.io/specification/2025-11-25/server/tools#error-handling) for result interpretation. The reference [PR](https://github.com/jihedbfr-art/mcp-keycloak-guard/pull/1) is not a published release. A local Docker test is slower than a schema check, but it exercises authentication and asynchronous invocation together. Repeat it when those boundaries change; keep a small inert check for routine connection validation.
 
 ---

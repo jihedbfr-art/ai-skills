@@ -20,6 +20,9 @@ jobs:
       - name: Install dependencies
         run: pip install pyyaml
 
+      - name: Offline MCP response lab
+        run: python -m unittest discover -s skills/05-mcp-protocol-and-tools/mcp-sse-transport-and-resource-providers/result-lab -v
+
       - name: Frontmatter & Skill Structure Lint
         run: python tools/lint_skills.py .
 
