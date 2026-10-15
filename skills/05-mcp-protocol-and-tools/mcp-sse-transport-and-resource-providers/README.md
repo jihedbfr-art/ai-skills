@@ -3,7 +3,7 @@
 
 <div align="center">
 
-Architectural pattern for exposing Model Context Protocol (MCP) servers over HTTP using Server-Sent Events (SSE) and implementing dynamic Resource Providers.
+Use when diagnosing an MCP connection: identify its transport and verify caller isolation and tool errors before connecting an agent.
 
 <a href="./README.fr.md">Version française</a>
 
@@ -12,14 +12,14 @@ Architectural pattern for exposing Model Context Protocol (MCP) servers over HTT
 ---
 
 ## Description
-Architectural pattern for exposing Model Context Protocol (MCP) servers over HTTP using Server-Sent Events (SSE) and implementing dynamic Resource Providers.
+Use when diagnosing an MCP connection: identify its transport and verify caller isolation and tool errors before connecting an agent.
 
 ## Domain & Metadata
 - **Domain:** `05-mcp-protocol-and-tools`
 - **Maturity:** `stable`
 - **Audience:** `["backend-engineer", "security-engineer", "coding-agent"]`
 - **Requirements:** `["bash", "git"]`
-- **Last Updated:** 2026-08-08
+- **Last Updated:** 2026-10-15
 
 ## Agent Instructions
 The canonical agent-executable specification is available in [SKILL.md](./SKILL.md).
